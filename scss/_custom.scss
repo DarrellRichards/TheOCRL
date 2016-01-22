@@ -226,27 +226,36 @@
     border-bottom-color: transparent;
 }
 
-// @media (max-width: 768px) {
-// 	.navbar-brand img {
-// 		width: 80%;
-//     	margin-top: -60px;
-//     	height: auto;
-// 	}
-// 	#mainBannerImage {
-// 	    height: 170px;
-// 	    width: 100%;
-// 	    position: relative;
-// 	    top: -41px;
-// 	}
-// 	#mainBannerText a{
-// 		background: green;
-//     	border: none;
-// 	}
-
-// 	#mainImage {
-// 	    height: 150px;
-// 	}
-// }
+@media (max-width: 768px) {
+	.navbar-brand img {
+	    height: 28px;
+    margin-top: -4px;
+	}
+	.nav{
+		li{
+			z-index: 2000;
+		    background: #ccc;
+		    margin-top: -2px;
+		    position: relative;
+		    top: -5px;
+		}
+	}
+	#mainBannerText {
+    	position: relative;
+       	top: -360px;
+       	h3{
+       		color: #000;
+       	}
+       a{
+       	background-color: $green;
+       	border: none;
+       	color: #000;
+       }
+	}
+	#homeTitleBar{
+		margin-top: 0;
+	}
+}
     
 
 

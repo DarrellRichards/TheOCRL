@@ -2087,4 +2087,29 @@ input[type=range]:focus::-ms-fill-upper {
   border: none;
   border-bottom-color: transparent; }
 
+@media (max-width: 768px) {
+  .navbar-brand img {
+    height: 28px;
+    margin-top: -4px; }
+
+  .nav li {
+    z-index: 2000;
+    background: #ccc;
+    margin-top: -2px;
+    position: relative;
+    top: -5px; }
+
+  #mainBannerText {
+    position: relative;
+    top: -360px; }
+    #mainBannerText h3 {
+      color: #000; }
+    #mainBannerText a {
+      background-color: #32FF00;
+      border: none;
+      color: #000; }
+
+  #homeTitleBar {
+    margin-top: 0; } }
+
 /*# sourceMappingURL=main.css.map */
