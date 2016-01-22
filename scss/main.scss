@@ -1,3 +1,10 @@
+$green: #32FF00;
+$open: "Open Sans", sans-serif;
+
+
+body{
+	font-family: $open;
+}
 .boxHelper
 {
 	background-color: #000;
@@ -480,10 +487,11 @@
 {
 	padding: 20px 0px;
 	background-color: #999;
-	background-image: url(/web/20160113022909/http://upperedgeracing.com/images/homeBarUnderHead_BG.jpg);
+	background-image: url(https://web.archive.org/web/20160113022917/http://upperedgeracing.com/images/homeBarUnderHead_BG.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	display: none;
 	margin-bottom: 20px;
 	margin-top: 30px;
 	border-top: 4px solid #000;
@@ -2780,3 +2788,4 @@ input[type=range]:focus::-ms-fill-upper
 
 }
 }
+@import 'custom';
