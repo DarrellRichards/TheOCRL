@@ -55,7 +55,7 @@
 	<div class="row">
 		<div class="col-md-8">
 			<section id="inTheNews">
-<div id="inTheNewsHome">
+				<div id="inTheNewsHome">
 		        	<h3>IN THE NEWS:</h3>
 		            <p><a href="/news">[ MORE NEWS ]</a></p>
             	</div>

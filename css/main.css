@@ -1956,6 +1956,9 @@ input[type=range]:focus::-ms-fill-upper {
         #top-bar ul li a:hover {
           color: #32FF00; }
 
+#nextEventBox {
+  font-family: "Open Sans", sans-serif; }
+
 #bottomNavBar p {
   margin-top: 3px; }
   #bottomNavBar p a {
@@ -2110,6 +2113,12 @@ input[type=range]:focus::-ms-fill-upper {
       color: #000; }
 
   #homeTitleBar {
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  #nextEventBox {
+    margin-top: 20px; }
+    #nextEventBox ul li {
+      background: transparent;
+      padding-top: 10px; } }
 
 /*# sourceMappingURL=main.css.map */

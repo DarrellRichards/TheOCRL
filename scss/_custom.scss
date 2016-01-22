@@ -22,7 +22,9 @@
 	   	}
 	}
 }
-
+#nextEventBox{
+	font-family: $open;
+}
 
 #bottomNavBar{
 	p{
@@ -229,7 +231,7 @@
 @media (max-width: 768px) {
 	.navbar-brand img {
 	    height: 28px;
-    margin-top: -4px;
+    	margin-top: -4px;
 	}
 	.nav{
 		li{
@@ -254,6 +256,16 @@
 	}
 	#homeTitleBar{
 		margin-top: 0;
+	}
+
+	#nextEventBox{
+		margin-top: 20px;
+		ul{
+			li{
+				background: transparent;
+				    padding-top: 10px;
+			}
+		}
 	}
 }
     
