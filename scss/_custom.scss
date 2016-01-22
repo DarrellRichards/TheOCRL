@@ -34,6 +34,25 @@
 	}
 }
 
+#mainBannerText h2{
+	color: $green;
+	font-family: $open;
+}
+
+#mainBannerText a{
+	&:hover{
+		color: $green;
+    	border: 2px solid $green;
+    	text-decoration: none;	
+	}
+}
+
+#inTheNewsHome,#nextEventHome{
+	a{
+		font-family: $open;
+	color: $green;
+	}
+}
 
 /* Header NAV */
 
@@ -206,3 +225,29 @@
     border: none;
     border-bottom-color: transparent;
 }
+
+// @media (max-width: 768px) {
+// 	.navbar-brand img {
+// 		width: 80%;
+//     	margin-top: -60px;
+//     	height: auto;
+// 	}
+// 	#mainBannerImage {
+// 	    height: 170px;
+// 	    width: 100%;
+// 	    position: relative;
+// 	    top: -41px;
+// 	}
+// 	#mainBannerText a{
+// 		background: green;
+//     	border: none;
+// 	}
+
+// 	#mainImage {
+// 	    height: 150px;
+// 	}
+// }
+    
+
+
+   

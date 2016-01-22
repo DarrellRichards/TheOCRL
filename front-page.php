@@ -42,16 +42,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
-				<div id="inTheNewsHome">
-		        	<h3>IN THE NEWS:</h3>
-		            <p><a href="/news">[ MORE NEWS ]</a></p>
-            	</div>
+				
 			</div>
 			<div class="col-md-4">
-				<div id="nextEventHome">
-	        	<h3>NEXT EVENT:</h3>
-	            <p><a href="includes/3_Wide_Schedule.pdf" target="blank">[ FULL SCHEDULE ]</a></p>
-            </div>
+				
 			</div>
 		</div>
 	</div>
@@ -61,7 +55,10 @@
 	<div class="row">
 		<div class="col-md-8">
 			<section id="inTheNews">
-        	<h2 class="hide">In the News</h2>
+<div id="inTheNewsHome">
+		        	<h3>IN THE NEWS:</h3>
+		            <p><a href="/news">[ MORE NEWS ]</a></p>
+            	</div>
             <div id="newsHomeSection">
             	<?php
 					$args = array(
@@ -91,7 +88,12 @@
         </section>
 		</div>
 		<div class="col-md-4">
+		<div id="nextEventHome">
+	        	<h3>NEXT EVENT:</h3>
+	            <p><a href="includes/3_Wide_Schedule.pdf" target="blank">[ FULL SCHEDULE ]</a></p>
+            </div>
 			<div id="nextEventBox">
+
 				
 				<ul class="nav nav-tabs" role="tablist">
 				    <li role="presentation" class="seriesChangeButton"><a href="#scs" aria-controls="scs" role="tab" data-toggle="tab">SCS</a></li>

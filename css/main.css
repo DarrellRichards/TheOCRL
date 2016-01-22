@@ -1962,6 +1962,19 @@ input[type=range]:focus::-ms-fill-upper {
     color: #32FF00;
     font-size: 0.825em; }
 
+#mainBannerText h2 {
+  color: #32FF00;
+  font-family: "Open Sans", sans-serif; }
+
+#mainBannerText a:hover {
+  color: #32FF00;
+  border: 2px solid #32FF00;
+  text-decoration: none; }
+
+#inTheNewsHome a, #nextEventHome a {
+  font-family: "Open Sans", sans-serif;
+  color: #32FF00; }
+
 /* Header NAV */
 .navbar-default {
   /* background-color: #f8f8f8; */
