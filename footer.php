@@ -1,32 +1,30 @@
-<div id="mainFooterBar">
-    	<footer id="mainFooter">
-    		<div class="container">
-    			<div class="row">
-	            	<div class="col-md-12">
-	            		<img src="<?php echo the_field('footer_logo', 'option'	); ?>" id="footerLogo">
-	                </div>
-	                
-	                <nav class="col-md-12" id="footerNav">
-	                <h2 class="hide">Footer Navigation</h2>
-	                	<ul>
-	                    	<li><a href="/about-us">About Us</a></li>
-	                        <li><a href="official-sponsors.html">Our Partners</a></li>
-	                        <li><a href="official-sponsors.html">Contact Us</a></li>
-	                        <li><a href="official-sponsors.html">Like Us on Facebook</a></li>
-	                        <li><a href="official-sponsors.html">Donate or Pay Fees</a></li>
-	                    </ul>
-	                </nav>
-           		</div>
+<footer id="mainFooter">
+	<div class="container">
+		<div class="row">
+        	<div class="col-md-12">
+        		<img src="<?php echo the_field('footer_logo', 'option'	); ?>" id="footerLogo">
+            </div>
             
-	        	<div class="row">
-		        	<div class="col-md-12" id="footerLegal"><!--Open Legal-->
-		            	<p><?php echo the_field('footer_copyright', 'option'	); ?></p>
-		                <p><?php echo the_field('footer_all_rights', 'option'	); ?></p>
-		            </div><!--Close Legal-->
-	            </div>
-    		</div>
-    	</footer>
-    </div>
+            <nav class="col-md-12" id="footerNav">
+            <h2 class="hide">Footer Navigation</h2>
+            	<ul>
+                	<li><a href="/about-us">About Us</a></li>
+                    <li><a href="official-sponsors.html">Our Partners</a></li>
+                    <li><a href="official-sponsors.html">Contact Us</a></li>
+                    <li><a href="official-sponsors.html">Like Us on Facebook</a></li>
+                    <li><a href="official-sponsors.html">Donate or Pay Fees</a></li>
+                </ul>
+            </nav>
+   		</div>
+    
+    	<div class="row">
+        	<div class="col-md-12" id="footerLegal">
+            	<p><?php echo the_field('footer_copyright', 'option'	); ?></p>
+                <p><?php echo the_field('footer_all_rights', 'option'	); ?></p>
+            </div>
+        </div>
+	</div>
+</footer>
 
 
 	

@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div id="homeMainBanner"><!--Open homeMainBanner--> 
+<div id="homeMainBanner">
     <div class="container">
     	<div class="row" id="homeNewsSection"><!--Open homeNewsSection-->
 	        <div class="col-md-8">
@@ -44,7 +44,7 @@
     </div>
 </div>
 
-<div id="nextEventRow">
+<div id="latestNews">
 	<div class="container">
 		<div class="row">
         	
@@ -83,8 +83,7 @@
 	</div>            
 </div>
 
-
-<div class="homeBottomBoxSection clearfix"><!--Open homeBottomBoxSection-->
+<div class="lastest_races clearfix">
   <div id="standings">
    		<img src="<?php bloginfo('template_directory'); ?>/images/ocrl_standings.png" alt="" />
   		<div class="series_upcoming">
@@ -116,7 +115,7 @@
   </div> 	
 </div>
 
-<div id="homeAboutSection"><!--Open homeAboutSection-->
+<div id="driver_resources"><!--Open homeAboutSection-->
 	<div class="container">
 		<div class="row">
 	    	<div class="col-md-12">

@@ -1,5 +1,56 @@
-// Upcoming Events Tabs
+// Homepage Banner Area
+#homeMainBanner {
+   padding: 40px 0px 40px 0px;
+   background: url(../images/ocrl_header.png);
+   background-size: cover;
+   #homeNewsSection{
+        margin-top: 30px;
+    }
+    #homeNewsMainLower{
+        background-color: #3a3a3a;
+        padding-bottom: 10px;
+        ul{
+            padding: 0;
+            margin: 0;
+            margin-left: 15px;
+            li{
+                list-style-type: none;
+                display: inline;
+                margin-right: 15px;
+            }
+        }
+        img{
+            min-width: 100%;
+        }
+        a{
+            color: #6dff01;
+            font-family: $play;
+            font-weight: 700;
+            margin-right: 25px;
+            &:hover{
+                border-left: none;
+                padding-left: 0;
+                margin-left: 0;
+            }
+        }
+        h1{
+            color: #fff;
+            font-size: 1.65em;
+            padding: 8px 8px 0px 8px;
+            font-family: "Play", sans-serif;
+            font-weight: 700;
+        }
+        p{
+            color: #fff;
+            font-size: .75em;
+            padding: 0px 8px;
+            font-family: "Open Sans", sans-serif;
+            line-height: 1.6em;
+        }
+    }
+}
 
+// Upcoming Events Tabs
 .nav-tabs>li>a:hover {
     border: none;
 }
@@ -26,3 +77,238 @@
     border: none;
     border-bottom-color: transparent;
 }
+.seriesChangeButton {
+    position: relative;
+    background-color: #353434;
+    z-index: 50;
+    width: 50%;
+    a{
+        text-align: center;
+        font-size: .875em;
+        color: #fff;
+        font-family: $open;
+        padding-top: 5px;
+    }
+}
+// SCS Tab Title
+.scs_title {
+    background: #ffd200!important;
+    text-align: center;
+    color: white!important;
+}
+// CMLT Tab Title
+.cmlt_title{
+    background: #174acc!important;
+    color: white!important;
+    text-align: center;
+}
+// Event Box Area
+#nextEventBox {
+    background-color: #3a3a3a;
+    text-align: center;
+    font-family: $play;
+    height: auto;
+    padding-bottom: 20px;
+    h2{
+        color: #fff;
+        font-size: 2.25em;
+        margin: 8px 0px 0px 0px;
+        font-weight: 700;
+    }
+    h3{
+        color: #fff;
+        font-size: 1.125em;
+        margin: 0px 0px 8px 0px;
+        font-weight: 700;
+    }
+    #nextDate {
+        color: #fff;
+        font-size: 1.8em;
+        margin: 8px 0px 0px 0px;
+    }
+    #eventicon {
+        width: 40%;
+    }
+    #racedetails {
+        background: #888c85;
+        width: 40%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 8px;
+        margin-top: 15px;
+        a{
+            color: #000000;
+            font-family: $play;
+            font-weight: 700;
+            text-transform: uppercase;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+// Latest News
+#latestNews{
+    padding: 30px 0px;
+    background-color: #888c85;
+    text-align: center;
+    max-height: 115px;
+    h4{
+        text-align: left;
+        font-weight: 700;
+        font-family: $open;
+        text-transform: uppercase;
+        font-size: 0.90em;
+        margin: 15px 0px 0px 0px;
+    }
+    h5{
+        color: #000;
+        text-align: left;
+        font-family: $play;
+        font-size: 1.2em;
+        font-style: normal;
+        font-weight: 700;    
+        margin: 0;
+        padding: 0;
+    }
+    h6{
+        color: #000;
+        text-align: left;
+        font-family: $play;
+        font-size: 1.2em;
+        font-style: normal;
+        font-weight: 700; 
+        margin: 0;
+        padding: 0;
+    }
+    .view_more{
+        background-color: #3a3a3a;
+        padding: 5px 10px;
+        color: #fff;
+    }
+    #nextEventTitles {
+        border-right: 1px solid #3d454c;
+        height: 70px;
+        margin-left: 60px;
+    }
+}
+.title_news{
+    color: #000;
+    font-size: 0.9em;
+    a{
+        transform-origin: bottom right;
+        -ms-transform: skew(-8deg, 0deg);
+        -webkit-transform: skew(-8deg, 0deg);
+        transform: skew(-8deg, 0deg);
+        background-color: #35cd00;
+        padding: 5px 20px;
+        margin-top: 5px;
+        color: #000;
+        font-size: .7em;
+        font-weight: 700;
+    }
+    p{
+        height: 28px;
+        font-weight: 700;
+        font-size: .9em;
+    }
+}
+
+// Race Results and Standings
+.lastest_races {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    #standings{
+        background: #3a3a3a;
+        height: 410px;
+        float: left;
+        max-width: 640px;
+        margin-right: 15px;
+        padding: 10px;
+        img {
+            float: left;
+            width: 40%;
+        }
+
+        .series_upcoming {
+            float: right;
+            height: 124px;
+        }
+        .seasonstandings {
+            height: 262px;
+            float: left;
+            width: 308px;
+            margin-top: 10px;
+        }
+        .raceresults{
+            height: 262px;
+            float: right;
+            width: 308px;
+            margin-top: 10px;
+        }
+        iframe {
+            border: none;
+       }
+    }
+    #cmltsstandings{
+        background: #3a3a3a;
+        height: 410px;
+        float: left;
+        max-width: 640px;
+        margin-right: 15px;
+        padding: 10px;
+        img {
+            float: right;
+            width: 40%;
+        }
+
+        .series_upcoming {
+            float: left;
+            height: 124px;
+        }
+        .seasonstandings {
+            height: 262px;
+            float: left;
+            width: 308px;
+            margin-top: 10px;
+        }
+        .raceresults{
+            height: 262px;
+            float: right;
+            width: 308px;
+            margin-top: 10px;
+        }
+        iframe {
+            border: none;
+       }
+    }
+}
+
+// Driver Resources
+#driver_resources{
+    background: url(../images/drivers_info.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    background-size: cover;
+    text-align: center;
+    h1{
+        font-size: 2em;
+        margin: 0px;
+        border: none;
+        padding: 90px 0px;
+    }
+    a{
+        color: #000;
+        font-weight: 700;
+        &:hover{
+            text-decoration: none;
+            color: $green;
+        }
+    }
+}
+
+
+

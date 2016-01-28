@@ -14,2611 +14,8 @@ body {
 ::-moz-selection {
   background: #32FF00 !important; }
 
-/*MAIN FOOTER*/
-#mainFooterBar {
-  background-color: #353434;
-  height: 300px;
-  margin-top: 30px;
-  border-top: 2px solid #666; }
-
-#mainFooter {
-  padding-top: 30px; }
-
-#footerLogo {
-  width: 6.25em;
-  height: 1.875em;
-  border: 0;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px; }
-
-#footerNav ul {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center; }
-
-#footerNav ul li {
-  display: inline; }
-
-#footerNav ul li a {
-  font-size: .625em;
-  color: #999;
-  margin-left: 15px;
-  padding-left: 15px;
-  width: 100%;
-  margin: 0 auto;
-  text-align: center; }
-
-#footerNav ul li a:hover {
-  color: #ffcc00; }
-
-#footerLegal p {
-  font-size: .625em;
-  color: #fff;
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 20px; }
-
-.lightGreyFullWidth {
-  background-color: #efefef;
-  margin: 30px 0px 20px 0px; }
-
-.mainPageTitleTop {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  border-bottom: 2px solid #efefef; }
-
-.mainPageTitleTop img {
-  max-height: 200px;
-  padding-bottom: 20px; }
-
-.seriesNameBar {
-  background-color: #353434;
-  padding-top: 15px;
-  margin-bottom: 25px; }
-
-.seriesName ul li {
-  display: inline; }
-
-.seriesName ul li a {
-  font-size: .625em;
-  font-weight: bold;
-  color: #999;
-  margin-right: 15px; }
-
-.seriesName ul li a:hover {
-  color: #ffcc00; }
-
-.mainPageTitleTop h2 {
-  font-size: 1.5em;
-  color: #272727;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-.mainPageTitleTop span {
-  color: #666; }
-
-#serviceCon {
-  padding: 20px 0px 20px 0px; }
-
-.services h2 {
-  font-size: .875em;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  line-height: 14px;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-.services h3 {
-  font-size: .55em;
-  margin-top: 0;
-  margin-bottom: 20px;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-.services p {
-  font-size: .75em;
-  line-height: 22px;
-  text-align: left;
-  width: 90%; }
-
-.services a {
-  color: #999;
-  font-size: 1em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  transition: all .2s ease-in-out; }
-
-.services a:hover {
-  color: #ffcc00; }
-
-.icon {
-  float: left;
-  max-width: 70px;
-  margin-right: 20px;
-  margin-bottom: 0px; }
-
-.sectionTitle {
-  border-bottom: 1px solid #CCC;
-  margin-bottom: 10px;
-  margin-top: 10px; }
-
-.sectionTitle h3 {
-  font-size: 1.875em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-/*Every Page Stuff*/
-#sponsorBarAd img {
-  padding-top: 10px;
-  border: 2px solid #666; }
-
-#sponsorBarAd h4 {
-  font-size: 1em;
-  color: #666;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  padding-top: 30px; }
-
-/*HOME PAGE*/
-#mainBanner {
-  height: auto;
-  padding: 30px 0px 30px 0px;
-  box-shadow: inset 0 -120px 50px rgba(0, 0, 0, 0.8); }
-
-#mainBannerText h2 {
-  color: #ffcc00;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 2.25em;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-  margin: 100px 0px 0px 20px; }
-
-#mainBannerText h3 {
-  color: #fff;
-  font-size: 1em;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-  margin: 0px 0px 30px 20px; }
-
-#mainBannerText a {
-  color: #fff;
-  font-size: .875em;
-  border: 2px solid #fff;
-  padding: 10px;
-  margin: 0px 0px 0px 20px;
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.9);
-  transition: all .2s ease-in-out; }
-
-#mainBannerText a:hover {
-  color: #ffcc00;
-  border: 2px solid #ffcc00; }
-
-#homeBarUnderHead {
-  padding: 20px 0px;
-  background-color: #999;
-  background-image: url(https://web.archive.org/web/20160113022917/http://upperedgeracing.com/images/homeBarUnderHead_BG.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: none;
-  margin-bottom: 20px;
-  margin-top: 30px;
-  border-top: 4px solid #000;
-  border-bottom: 4px solid #000; }
-
-#homeBarUnderHeadLeft {
-  border-right: 2px solid #CCC; }
-
-#homeBarUnderHead h3 {
-  color: #fff;
-  font-size: 1.5em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  margin: 0;
-  padding: 0; }
-
-#homeBarUnderHead h2 {
-  color: #999;
-  font-size: 2.25em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  margin: 0;
-  padding: 0; }
-
-#homeBarUnderHead p {
-  color: #fff;
-  font-size: 1em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  margin: 0;
-  padding: 0; }
-
-#homeBarUnderHead h4 {
-  color: #fff;
-  font-size: 1em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  margin: 0;
-  padding: 0; }
-
-#inTheNewsHome h3 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  color: #272727;
-  font-size: 2em;
-  margin: 0px; }
-
-#inTheNewsHome a {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  color: #ffcc00;
-  font-size: 1em;
-  margin: 0px; }
-
-#inTheNewsHome a:hover {
-  color: #272727; }
-
-#newsHomeSection {
-  padding-top: 4px; }
-
-.newsBackColored {
-  background-color: #CCC;
-  height: auto; }
-
-.newsBackColored h3 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  color: #272727;
-  font-size: 2em;
-  margin: 5px 0px 0px 5px; }
-
-.newsBackColored a {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  color: #efefef;
-  font-size: 1em;
-  margin: 5px 0px 0px 5px; }
-
-.newsBackColored a:hover {
-  color: #000; }
-
-.newsBackLight {
-  background-color: #efefef;
-  height: auto; }
-
-.newsBackLight h3 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  color: #272727;
-  font-size: 2em;
-  margin: 5px 0px 0px 5px; }
-
-.newsBackLight a {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  color: #999;
-  font-size: 1em;
-  margin: 5px 0px 0px 5px; }
-
-.newsBackLight a:hover {
-  color: #000; }
-
-#nextEventHome h3 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  color: #272727;
-  font-size: 2em;
-  margin: 0px; }
-
-#nextEventHome a {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  color: #ffcc00;
-  font-size: 1em;
-  margin: 0px; }
-
-#nextEventHome a:hover {
-  color: #272727; }
-
-#nextEventBox {
-  background-color: #272727;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  height: auto;
-  padding-bottom: 20px; }
-
-#nextEventBox h5 {
-  font-size: .875em;
-  color: #fff;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  text-align: center;
-  padding-top: 5px; }
-
-#nextEventBox h5:hover {
-  color: #ffcc00; }
-
-.right {
-  float: right !important; }
-
-.seriesChangeButton {
-  position: relative;
-  background-color: #353434;
-  z-index: 50;
-  width: 33.3%; }
-
-#nextEventBox img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
-#nextEventBox h2 {
-  color: #fff;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 2.25em;
-  text-align: center;
-  margin: 8px 0px 0px 0px; }
-
-#nextEventLogo {
-  width: 150px;
-  height: 90px; }
-
-#nextEventBox h3 {
-  color: #828282;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 1.125em;
-  text-align: center;
-  margin: 0px 0px 8px 0px; }
-
-#nextDate {
-  color: #fff;
-  font-size: 1.8em;
-  text-align: center;
-  margin: 8px 0px 0px 0px; }
-
-#nextQualifying {
-  color: #828282;
-  font-size: 1.125em;
-  text-align: center;
-  margin: 4px 0px 0px 0px; }
-
-#nextGreen {
-  color: #828282;
-  font-size: 1.125em;
-  text-align: center;
-  margin: 0px 0px 8px 0px; }
-
-#homeSocialMedia {
-  display: inline;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 1.125em;
-  padding-right: 10px; }
-
-.homeBottomBoxSection {
-  margin-top: 20px; }
-
-.homeBottomBox {
-  padding: 20px 10px; }
-
-.homeBottomBox h2 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 1.5em;
-  text-align: center;
-  padding: 5px 0px 5px 0px;
-  border-bottom: 1px solid #CCC; }
-
-.homeBottomBox p {
-  text-align: center; }
-
-.homeBottomBox a {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: .875em;
-  color: #ffcc00; }
-
-.homeBottomBox a:hover {
-  color: #000; }
-
-.homeBottomBox h5 {
-  font-size: .875em;
-  padding-bottom: 25px;
-  border-bottom: 1px solid #CCC; }
-
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden; }
-
-.video-container iframe, .video-container object, .video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
-
-.seriesChangeButton {
-  cursor: pointer; }
-
-#homeBottomAdSection {
-  background-color: #efefef;
-  padding: 30px 0px;
-  margin: 20px 0px; }
-
-#homeBottomAdSection h5 {
-  background-color: #000;
-  padding: 8px 10px;
-  text-align: center; }
-
-#homeBottomAdSection a {
-  color: #fff;
-  font-size: .75em;
-  transition: all .3s ease-in-out; }
-
-#homeBottomAdSection a:hover {
-  color: #ffcc00;
-  padding-left: 12px;
-  border-left: 2px solid #ffcc00;
-  padding-right: 12px;
-  border-right: 2px solid #ffcc00; }
-
-/*ABOUT PAGE*/
-.aboutPageFullWidthColor {
-  background-color: #efefef;
-  margin: 30px 0px 20px 0px; }
-
-.aboutPageMainText p {
-  font-size: .875em; }
-
-.aboutPageMainText h3 {
-  font-size: .875em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-.aboutPageMainText a {
-  background-color: #ffcc00;
-  font-size: 1em;
-  color: #000;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  padding: 10px 15px; }
-
-.aboutPageMainText a:hover {
-  color: #fff; }
-
-#aboutPageLogo {
-  margin-top: 50px; }
-
-#aboutPageCarImg {
-  margin-top: 80px;
-  margin-bottom: 20px; }
-
-#aboutPageLogo h2 {
-  font-size: 2em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  text-align: center;
-  margin-top: 25px; }
-
-.clearing-assembled .clearing-container .visible-img {
-  background-color: rgba(0, 0, 0, 0.5); }
-
-.clearing-assembled .clearing-container .carousel {
-  background-color: #000; }
-
-.clearing-assembled .clearing-container, .clearing-caption {
-  background-color: rgba(0, 0, 0, 0.5); }
-
-.clearing-assembled .clearing-container .carousel > ul {
-  width: auto !important; }
-
-/*DRIVERS PAGE*/
-.driversPlaceHolder {
-  height: 400px; }
-
-.driversPlaceHolder h3 {
-  font-size: 1.5em;
-  color: #000;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #efefef; }
-
-#driversTable table {
-  border: none; }
-
-#driversTable img {
-  max-width: 40px; }
-
-#driversTable thead th {
-  background-color: #000;
-  color: #fff;
-  font-size: .75em; }
-
-/*CONTACT PAGE*/
-#contactFormGetInTouch {
-  border-right: 1px solid #efefef; }
-
-#contactFormGetInTouch h3 {
-  font-size: 2em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-#contactFormGetInTouch h4 {
-  font-size: 1em;
-  font-weight: 200;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #efefef; }
-
-#twitterLinkButton {
-  background-color: #000;
-  font-size: 1em;
-  color: #fff;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  padding: 10px 15px;
-  float: right;
-  margin: 20px 50px 0px 0px;
-  border: 1px solid #000; }
-
-#twitterLinkButton:hover {
-  color: #000;
-  background-color: #efefef; }
-
-#contactFormBox h3 {
-  font-size: 2em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-#contactFormBox h4 {
-  font-size: 1em;
-  font-weight: 200;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #efefef; }
-
-#contactForm {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-label {
-  font-size: 1em;
-  margin-bottom: 10px; }
-
-fieldset {
-  font-size: 1em;
-  border: none;
-  padding: 0px; }
-
-input, textarea {
-  font-size: .687em;
-  border: 1px solid #333;
-  color: #000;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 10px;
-  height: 10px; }
-
-#comments {
-  height: 100px; }
-
-#submit {
-  margin-top: 20px;
-  text-decoration: none;
-  color: #fff;
-  padding: 5px 10px 5px 10px;
-  background-color: #000;
-  font-size: 1em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  padding: 10px 15px;
-  margin-top: 20px;
-  height: 40px; }
-
-#submit:hover {
-  background-color: #efefef;
-  color: #000; }
-
-/*MAIN NEWS PAGE*/
-.newsContentArea {
-  border-bottom: 1px solid #efefef;
-  margin-bottom: 20px;
-  padding-bottom: 20px; }
-
-.newsContentArea h4 {
-  font-size: 1.75em;
-  line-height: 1.2em;
-  font-weight: 100; }
-
-.newsContentArea h5 {
-  font-size: .875em;
-  font-weight: 200;
-  margin-bottom: 30px; }
-
-.newsContentArea a {
-  background-color: #ffcc00;
-  padding: 8px 12px;
-  color: #000;
-  font-size: .875em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-.newsContentArea a:hover {
-  color: #fff; }
-
-#sponsorsBoxNewsPage {
-  border-left: 1px solid #efefef;
-  padding-left: 20px; }
-
-#sponsorsBoxNewsPage h3 {
-  font-size: .75em;
-  font-weight: 100; }
-
-#sponsorsBoxNewsPage img {
-  padding: 10px 20px; }
-
-/*NEWS PAGES*/
-.innerNewsPageTop h4 {
-  margin-top: 40px;
-  font-size: 1.75em;
-  line-height: 1.2em;
-  font-weight: 100; }
-
-.innerNewsPageTop h5 {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: .875em;
-  font-weight: 200;
-  color: #CCC; }
-
-.innerNewsPageContent {
-  border-right: 1px solid #efefef;
-  padding-right: 20px; }
-
-.innerNewsPageContent p {
-  font-size: 1em;
-  font-weight: 200; }
-
-#rightSideContentNewsInner h4 {
-  font-size: 1.25em;
-  font-weight: 200;
-  color: #272727;
-  border-top: 1px solid #efefef;
-  padding-top: 15px; }
-
-#rightSideContentNewsInner a {
-  font-size: .875em;
-  color: #CCC;
-  font-weight: 200; }
-
-#rightSideContentNewsInner a:hover {
-  color: #ffcc00; }
-
-/*REGISTRATION PAGE*/
-.registrationBoxTitle h2 {
-  color: #000;
-  font-size: 2em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  margin-top: 30px; }
-
-#registrationStepsBox {
-  border-left: 1px solid #efefef; }
-
-.registrationBox h3 {
-  font-size: 1.25em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  margin-top: 10px;
-  padding-top: 10px;
-  border-top: 1px solid #efefef; }
-
-.registrationBox h5 {
-  font-size: 1em;
-  font-weight: 200; }
-
-.registerPageMainText p {
-  font-size: .875em; }
-
-#registrationStatus h4 {
-  font-size: 1.25em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  border-left: 3px solid #efefef;
-  border-bottom: 3px solid #efefef;
-  padding-left: 5px; }
-
-#registrationStatus span {
-  color: #CF0900;
-  font-size: 1.25em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-#registerForm {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-/*RULES PAGE*/
-.rulePageSection img {
-  margin: 40px 0px; }
-
-.rulePageSection p {
-  font-size: .875em; }
-
-.rulePageSection h3 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 2em;
-  margin-top: 40px; }
-
-.rulePageSection h5 {
-  color: #CCC;
-  font-size: 1em;
-  font-weight: 200;
-  margin-bottom: 20px; }
-
-.rulePageSection a {
-  background-color: #ffcc00;
-  padding: 8px 12px;
-  color: #000;
-  font-size: .875em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-.rulePageSection a:hover {
-  color: #fff; }
-
-/*PRIVACY PAGE*/
-.privacySection h3 {
-  color: #ffcc00;
-  font-size: 1em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-.privacySection p {
-  font-size: .875em; }
-
-.privacySection a {
-  font-size: .875em;
-  color: #ffcc00; }
-
-/*SPONSORS PAGE*/
-.leaguePartners h3 {
-  color: #ffcc00;
-  font-size: 2em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-.imageBoxSponsor {
-  height: 150px; }
-
-.imageBoxSponsorSmall {
-  height: 90px; }
-
-.leaguePartners img {
-  height: 80%;
-  padding-top: 30px;
-  display: block;
-  margin: 0 auto; }
-
-.leaguePartners p {
-  font-size: .875em;
-  color: #272727;
-  font-weight: bold;
-  margin-top: 30px;
-  border-top: 1px solid #CCC;
-  padding-top: 30px;
-  text-align: center; }
-
-/*ADVERTISE PAGE*/
-#adDescSection {
-  margin-top: 30px; }
-
-#adDescSection p {
-  font-size: .875em; }
-
-#adoptionsSection p {
-  font-size: .875em; }
-
-/*CHAMPIONS PAGE*/
-#championsBanner {
-  height: auto;
-  padding: 30px 0px 30px 0px;
-  background-color: #000;
-  background-image: url(/web/20160113022909/http://upperedgeracing.com/images/champions_header.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  box-shadow: inset 0 -120px 50px rgba(0, 0, 0, 0.8);
-  margin-bottom: 20px; }
-
-#champBannerNames {
-  padding: 10px 0px;
-  background-color: #666; }
-
-#champBannerNames h6 {
-  text-align: center;
-  color: #333;
-  font-size: .75em;
-  font-weight: 500;
-  margin: 0;
-  padding: 0; }
-
-#champBannerNames span {
-  margin: 0px 10px 0px 10px;
-  color: #333; }
-
-#championsSportsmanBack {
-  padding: 20px 0px;
-  background-color: #efefef;
-  background-image: url(/web/20160113022909/http://upperedgeracing.com/images/champSportsmanBack.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 20px 0px; }
-
-#championsSportsmanBack img {
-  max-height: 350px;
-  margin: 10px 10px; }
-
-/* CSS Document */
-.boxHelper {
-  background-color: #000;
-  text-align: center;
-  color: #fff; }
-
-::selection {
-  background: #ffcc00; }
-
-::-moz-selection {
-  background: #ffcc00; }
-
-@font-face {
-  font-family: 'bebas_neueregular';
-  src: url("../fonts/bebasneue-webfont.eot");
-  src: url("../fonts/bebasneue-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bebasneue-webfont.woff2") format("woff2"), url("../fonts/bebasneue-webfont.woff") format("woff"), url("../fonts/bebasneue-webfont.ttf") format("truetype"), url("../fonts/bebasneue-webfont.svg#bebas_neueregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-/*Mobile Nav*/
-.top-bar {
-  background: #353434;
-  text-align: center; }
-
-.top-bar-section a {
-  background-color: #fff; }
-
-.top-bar.expanded .title-area {
-  background: #353434; }
-
-.top-bar .toggle-topbar.menu-icon a span::after {
-  box-shadow: 0 0 0 2px #ffcc00, 0 7px 0 2px #ffcc00, 0 14px 0 2px #ffcc00; }
-
-#mobileNav li a {
-  display: block;
-  color: #353434;
-  padding: 5px 0 5px; }
-
-#mobileNav li a:hover {
-  background: #353434;
-  color: #ffcc00; }
-
-#mobileNav li {
-  border-bottom: 1px solid #efefef; }
-
-#mobileNav li:first-child {
-  border-top: 1px solid #fff; }
-
-#mobileNav {
-  margin: 0; }
-
-/*TOP BAR*/
-#topBar {
-  background-color: #353434;
-  padding: 2px 0px 2px 0px; }
-
-#topBarContent ul {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center; }
-
-#topBarContent ul li {
-  display: inline; }
-
-#topBarContent ul li a {
-  color: #909090;
-  font-size: .625em;
-  font-style: italic;
-  text-decoration: none;
-  margin-right: 25px;
-  transition: all .2s ease-in-out; }
-
-#topBarContent ul:first-child {
-  margin-left: 0px; }
-
-#topBarContent ul li a:hover {
-  color: #ffcc00; }
-
-/*MAIN HEADER*/
-#mainHeader {
-  background-color: #EAEAEA;
-  padding: 12px 0px 12px 0px; }
-
-#logo {
-  width: 12.5em;
-  height: 3.75em;
-  border: 0; }
-
-#mobileLogo {
-  width: 6.248em; }
-
-/*DESKTOP NAV*/
-#mainNav ul {
-  text-align: left;
-  display: inline;
-  margin: 0;
-  padding: 15px 4px 17px 0;
-  list-style: none;
-  float: right; }
-
-#mainNav ul a {
-  text-decoration: none;
-  font: .75em Arial, Helvetica, sans-serif;
-  color: #000;
-  transition: all .2s ease-in-out; }
-
-#mainNav ul a:hover {
-  color: #999;
-  padding-top: 4px;
-  border-top: 1px solid #CCC; }
-
-#mainNav ul li {
-  display: inline-block;
-  margin-right: -4px;
-  position: relative;
-  padding: 5px 15px;
-  background-color: #EAEAEA;
-  cursor: pointer; }
-
-#mainNav ul li:hover {
-  background-color: #EAEAEA; }
-
-#mainNav ul li ul {
-  padding: 0;
-  position: absolute;
-  width: 160px;
-  display: none;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-box-shadow: 0px 8px 9px 0px rgba(0, 0, 0, 0.24);
-  -moz-box-shadow: 0px 8px 9px 0px rgba(0, 0, 0, 0.24);
-  box-shadow: 0px 8px 9px 0px rgba(0, 0, 0, 0.24); }
-
-#mainNav ul li ul li {
-  background-color: #EAEAEA;
-  display: block;
-  border-bottom: 1px solid #E5E5E5; }
-
-#mainNav ul li:hover ul {
-  display: block;
-  opacity: 1;
-  visibility: visible; }
-
-/*BOTTOM NAV BAR*/
-#bottomNavBar {
-  background-color: #353434;
-  height: 28px; }
-
-#bottomNavBar a {
-  color: #ffcc00;
-  font-size: .625em; }
-
-#bottomNavBar a:hover {
-  text-decoration: underline; }
-
-#bottomNavBarInnerPage {
-  background-color: #353434;
-  height: 5px; }
-
-/*MAIN FOOTER*/
-#mainFooterBar {
-  background-color: #353434;
-  height: 300px;
-  margin-top: 30px;
-  border-top: 2px solid #666; }
-
-#mainFooter {
-  padding-top: 30px; }
-
-#footerLogo {
-  width: 6.25em;
-  height: 1.875em;
-  border: 0;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px; }
-
-#footerNav ul {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center; }
-
-#footerNav ul li {
-  display: inline; }
-
-#footerNav ul li a {
-  font-size: .625em;
-  color: #999;
-  margin-left: 15px;
-  padding-left: 15px;
-  width: 100%;
-  margin: 0 auto;
-  text-align: center; }
-
-#footerNav ul li a:hover {
-  color: #ffcc00; }
-
-#footerLegal p {
-  font-size: .625em;
-  color: #fff;
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 20px; }
-
-.lightGreyFullWidth {
-  background-color: #efefef;
-  margin: 30px 0px 20px 0px; }
-
-.mainPageTitleTop {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  border-bottom: 2px solid #efefef; }
-
-.mainPageTitleTop img {
-  max-height: 200px;
-  padding-bottom: 20px; }
-
-.seriesNameBar {
-  background-color: #353434;
-  padding-top: 15px;
-  margin-bottom: 25px; }
-
-.seriesName ul li {
-  display: inline; }
-
-.seriesName ul li a {
-  font-size: .625em;
-  font-weight: bold;
-  color: #999;
-  margin-right: 15px; }
-
-.seriesName ul li a:hover {
-  color: #ffcc00; }
-
-.mainPageTitleTop h2 {
-  font-size: 1.5em;
-  color: #272727;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-.mainPageTitleTop span {
-  color: #666; }
-
-#serviceCon {
-  padding: 20px 0px 20px 0px; }
-
-.services h2 {
-  font-size: .875em;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  line-height: 14px;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-.services h3 {
-  font-size: .55em;
-  margin-top: 0;
-  margin-bottom: 20px;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-.services p {
-  font-size: .75em;
-  line-height: 22px;
-  text-align: left;
-  width: 90%; }
-
-.services a {
-  color: #999;
-  font-size: 1em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  transition: all .2s ease-in-out; }
-
-.services a:hover {
-  color: #ffcc00; }
-
-.icon {
-  float: left;
-  max-width: 70px;
-  margin-right: 20px;
-  margin-bottom: 0px; }
-
-.sectionTitle {
-  border-bottom: 1px solid #CCC;
-  margin-bottom: 10px;
-  margin-top: 10px; }
-
-.sectionTitle h3 {
-  font-size: 1.875em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-/*Every Page Stuff*/
-#sponsorBarAd img {
-  padding-top: 10px;
-  border: 2px solid #666; }
-
-#sponsorBarAd h4 {
-  font-size: 1em;
-  color: #666;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  padding-top: 30px; }
-
-/*HOME PAGE*/
-#homeMainBanner {
-  background-image: url(http://www.upperedgeracing.com/images/squared_metal.png);
-  padding: 80px 0px 40px 0px; }
-
-#homeNewsSection {
-  margin-top: 30px; }
-
-#homeNewsList {
-  background-color: #fff;
-  margin: 0;
-  padding: 0;
-  border-bottom: 3px solid #1c1d22; }
-
-#homeNewsList h1 {
-  color: #1c1d22;
-  font-size: 1.25em;
-  font-weight: 600;
-  padding: 16px 20px;
-  border-bottom: 3px solid #1c1d22;
-  font-style: italic;
-  background-color: #ffcc00;
-  margin-top: 0px; }
-
-#homeNewsList h2 {
-  color: #1c1d22;
-  font-size: .875em;
-  border-bottom: 1px solid #e1e1e1;
-  padding: 10px 15px 15px 15px; }
-
-#homeNewsList h2:last-child {
-  margin-bottom: 0px; }
-
-#homeNewsList a {
-  color: #1c1d22; }
-
-#homeNewsList a:hover {
-  color: #ffcc00; }
-
-#homeNewsMainLower {
-  background-color: #1c1d22; }
-
-#homeNewsMainLower h1 {
-  color: #fff;
-  font-size: 1.65em;
-  padding: 8px 8px 0px 8px;
-  font-family: "Play", sans-serif;
-  font-weight: 700; }
-
-#homeNewsMainLower h2 {
-  color: #fff;
-  font-size: .75em;
-  padding: 0px 8px;
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.6em; }
-
-#homeNewsMainLower h3 {
-  font-size: .75em;
-  padding: 5px 8px 10px 8px; }
-
-#homeNewsMainLower a {
-  color: #ffcc00;
-  transition: .3s ease-in-out all; }
-
-#homeNewsMainLower a:hover {
-  color: #fff;
-  padding-left: 8px;
-  border-left: 2px solid #FFF;
-  margin-left: 8px; }
-
-#nextEventRow {
-  padding: 30px 0px;
-  background-color: #2e353a;
-  background-image: url(../images/nextEventBG.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-#nextEventTitles {
-  border-right: 1px solid #3d454c; }
-
-#nextEventTitles div {
-  transform-origin: bottom right;
-  -ms-transform: skew(-8deg, 0deg);
-  -webkit-transform: skew(-8deg, 0deg);
-  transform: skew(-8deg, 0deg); }
-
-#nextEventTitles h5 {
-  font-size: .875em;
-  color: #fff;
-  font-weight: 600;
-  font-style: italic;
-  margin: 0px;
-  padding: 0px; }
-
-#nextEventTitles h6 {
-  font-size: .875em;
-  color: #fff;
-  font-weight: 600;
-  font-style: italic;
-  margin: 0px;
-  padding: 0px; }
-
-#nextEventTitles h4 {
-  font-size: .75em;
-  font-weight: 600;
-  font-style: italic;
-  margin: 15px 0px 0px 0px; }
-
-#nextEventTitles a {
-  color: #fff;
-  background-color: #666;
-  padding: 5px 10px; }
-
-#nextEventTitles a:hover {
-  color: #ffcc00; }
-
-.nextEventRacesDate {
-  height: 30px; }
-
-.nextEventRacesEvent {
-  height: 60px; }
-
-.trucksNextEvent {
-  transform-origin: bottom right;
-  -ms-transform: skew(-8deg, 0deg);
-  -webkit-transform: skew(-8deg, 0deg);
-  transform: skew(-8deg, 0deg);
-  background-color: #0072bc;
-  padding: 3px 10px;
-  margin-top: 5px; }
-
-.sportsmanNextEvent {
-  transform-origin: bottom right;
-  -ms-transform: skew(-8deg, 0deg);
-  -webkit-transform: skew(-8deg, 0deg);
-  transform: skew(-8deg, 0deg);
-  background-color: #034ea2;
-  padding: 3px 10px;
-  margin-top: 5px; }
-
-.superNextEvent {
-  transform-origin: bottom right;
-  -ms-transform: skew(-8deg, 0deg);
-  -webkit-transform: skew(-8deg, 0deg);
-  transform: skew(-8deg, 0deg);
-  background-color: #da251d;
-  padding: 3px 10px;
-  margin-top: 5px; }
-
-.nextEventRaces h5 {
-  font-size: .75em;
-  color: #999;
-  font-weight: 200;
-  margin: 0px;
-  padding: 0px; }
-
-.nextEventRaces h6 {
-  font-size: .75em;
-  color: #fff;
-  font-weight: 300;
-  margin: 5px 0px 0px 0px;
-  padding: 0px; }
-
-.nextEventRaces h4 {
-  font-size: .65em;
-  color: #fff;
-  font-weight: 300;
-  margin: 5px 0px 0px 0px;
-  padding: 0px; }
-
-#nextEventHome h3 {
-  color: #272727;
-  font-size: 2em;
-  margin: 0px; }
-
-#nextEventHome a {
-  color: #ffcc00;
-  font-size: 1em;
-  margin: 0px; }
-
-#nextEventHome a:hover {
-  color: #272727; }
-
-#nextEventBox {
-  background-color: #272727;
-  height: auto;
-  padding-bottom: 20px;
-  font-family: "Play", sans-serif;
-  font-weight: 700; }
-
-#nextEventBox h5 {
-  font-size: .875em;
-  color: #fff;
-  text-align: center;
-  padding-top: 5px; }
-
-#nextEventBox h5:hover {
-  color: #ffcc00; }
-
-.seriesChangeButton {
-  position: relative;
-  background-color: #353434;
-  z-index: 50;
-  width: 33.3%; }
-
-#nextEventBox img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
-#nextEventBox h2 {
-  color: #fff;
-  font-size: 2.25em;
-  text-align: center;
-  margin: 8px 0px 0px 0px;
-  font-family: "Play", sans-serif;
-  font-weight: 700; }
-
-#nextEventLogo {
-  width: 150px;
-  height: 90px; }
-
-#nextEventBox h3 {
-  color: #fff;
-  font-size: 1.125em;
-  text-align: center;
-  margin: 0px 0px 8px 0px;
-  font-family: "Play", sans-serif;
-  font-weight: 700; }
-
-#nextDate {
-  color: #fff;
-  font-size: 1.8em;
-  text-align: center;
-  margin: 8px 0px 0px 0px; }
-
-#nextQualifying {
-  color: #828282;
-  font-size: 1.125em;
-  text-align: center;
-  margin: 4px 0px 0px 0px; }
-
-#nextGreen {
-  color: #828282;
-  font-size: 1.125em;
-  text-align: center;
-  margin: 0px 0px 8px 0px; }
-
-#homeSocialMedia {
-  display: inline;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 1.125em;
-  padding-right: 10px; }
-
-.homeBottomBoxSection {
-  margin-top: 20px; }
-
-.homeBottomBox {
-  padding: 20px 10px; }
-
-.homeBottomBox img:hover {
-  filter: gray;
-  /* IE6-9 */
-  -webkit-filter: grayscale(100%);
-  /* Chrome 19+ & Safari 6+ */ }
-
-.homeBottomBoxBack {
-  background-color: #1c1d22;
-  border-bottom: 6px solid #a5a5a5; }
-
-.homeBottomBox h2 {
-  font-size: 1.25em;
-  padding: 12px 12px 0px 12px;
-  margin: 0px; }
-
-.homeBottomBox p {
-  font-size: .875em;
-  padding: 0px 12px; }
-
-.homeBottomBox a {
-  color: #ffcc00; }
-
-.homeBottomBox a:hover {
-  color: #fff; }
-
-#homeSponsorsBar {
-  padding: 30px;
-  background-color: #1c1d22; }
-
-#homeAboutSection {
-  background-image: url(https://static.wixstatic.com/media/e39ef0_989176bbba094073937b5dee0be35af6.jpg/v1/fit/w_1360,h_680,q_90/e39ef0_989176bbba094073937b5dee0be35af6.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  opacity: .4;
-  background-size: cover; }
-
-#homeAboutSection h1 {
-  font-size: 2em;
-  text-align: center;
-  padding: 90px 0px; }
-
-#homeAboutSection a {
-  color: #ffcc00;
-  transition: .3s ease-in-out all; }
-
-#homeAboutSection a:hover {
-  color: #fff;
-  border-bottom: 3px solid #fff;
-  padding-bottom: 20px; }
-
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden; }
-
-.video-container iframe, .video-container object, .video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
-
-.seriesChangeButton {
-  cursor: pointer; }
-
-/*ABOUT PAGE*/
-.aboutPageFullWidthColor {
-  background-color: #efefef;
-  margin: 30px 0px 20px 0px; }
-
-.aboutPageMainText p {
-  font-size: .875em; }
-
-.aboutPageMainText h3 {
-  font-size: .875em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-.aboutPageMainText a {
-  background-color: #ffcc00;
-  font-size: 1em;
-  color: #000;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  padding: 10px 15px; }
-
-.aboutPageMainText a:hover {
-  color: #fff; }
-
-#aboutPageLogo {
-  margin-top: 50px; }
-
-#aboutPageCarImg {
-  margin-top: 80px;
-  margin-bottom: 20px; }
-
-#aboutPageLogo h2 {
-  font-size: 2em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  text-align: center;
-  margin-top: 25px; }
-
-.clearing-assembled .clearing-container .visible-img {
-  background-color: rgba(0, 0, 0, 0.5); }
-
-.clearing-assembled .clearing-container .carousel {
-  background-color: #000; }
-
-.clearing-assembled .clearing-container, .clearing-caption {
-  background-color: rgba(0, 0, 0, 0.5); }
-
-.clearing-assembled .clearing-container .carousel > ul {
-  width: auto !important; }
-
-/*DRIVERS PAGE*/
-.driversPlaceHolder {
-  height: 400px; }
-
-.driversPlaceHolder h3 {
-  font-size: 1.5em;
-  color: #000;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #efefef; }
-
-#driversTable table {
-  border: none; }
-
-#driversTable img {
-  max-width: 40px; }
-
-#driversTable thead th {
-  background-color: #000;
-  color: #fff;
-  font-size: .75em; }
-
-/*CONTACT PAGE*/
-#contactFormGetInTouch {
-  border-right: 1px solid #efefef; }
-
-#contactFormGetInTouch h3 {
-  font-size: 2em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-#contactFormGetInTouch h4 {
-  font-size: 1em;
-  font-weight: 200;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #efefef; }
-
-#twitterLinkButton {
-  background-color: #000;
-  font-size: 1em;
-  color: #fff;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  padding: 10px 15px;
-  float: right;
-  margin: 20px 50px 0px 0px;
-  border: 1px solid #000; }
-
-#twitterLinkButton:hover {
-  color: #000;
-  background-color: #efefef; }
-
-#contactFormBox h3 {
-  font-size: 2em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-#contactFormBox h4 {
-  font-size: 1em;
-  font-weight: 200;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #efefef; }
-
-#contactForm {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-label {
-  font-size: 1em;
-  margin-bottom: 10px; }
-
-fieldset {
-  font-size: 1em;
-  border: none;
-  padding: 0px; }
-
-input, textarea {
-  font-size: .687em;
-  border: 1px solid #333;
-  color: #000;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 10px;
-  height: 10px; }
-
-#comments {
-  height: 100px; }
-
-#submit {
-  margin-top: 20px;
-  text-decoration: none;
-  color: #fff;
-  padding: 5px 10px 5px 10px;
-  background-color: #000;
-  font-size: 1em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  padding: 10px 15px;
-  margin-top: 20px;
-  height: 40px; }
-
-#submit:hover {
-  background-color: #efefef;
-  color: #000; }
-
-/*MAIN NEWS PAGE*/
-.newsContentArea {
-  border-bottom: 1px solid #efefef;
-  margin-bottom: 20px;
-  padding-bottom: 20px; }
-
-.newsContentArea h4 {
-  font-size: 1.75em;
-  line-height: 1.2em;
-  font-weight: 100; }
-
-.newsContentArea h5 {
-  font-size: .875em;
-  font-weight: 200;
-  margin-bottom: 30px; }
-
-.newsContentArea a {
-  background-color: #ffcc00;
-  padding: 8px 12px;
-  color: #000;
-  font-size: .875em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-.newsContentArea a:hover {
-  color: #fff; }
-
-#sponsorsBoxNewsPage {
-  border-left: 1px solid #efefef;
-  padding-left: 20px; }
-
-#sponsorsBoxNewsPage h3 {
-  font-size: .75em;
-  font-weight: 100; }
-
-#sponsorsBoxNewsPage img {
-  padding: 10px 20px; }
-
-/*NEWS PAGES*/
-.innerNewsPageTop h4 {
-  margin-top: 40px;
-  font-size: 1.75em;
-  line-height: 1.2em;
-  font-weight: 100; }
-
-.innerNewsPageTop h5 {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: .875em;
-  font-weight: 200;
-  color: #CCC; }
-
-.innerNewsPageContent {
-  border-right: 1px solid #efefef;
-  padding-right: 20px; }
-
-.innerNewsPageContent p {
-  font-size: 1em;
-  font-weight: 200; }
-
-#rightSideContentNewsInner h4 {
-  font-size: 1.25em;
-  font-weight: 200;
-  color: #272727;
-  border-top: 1px solid #efefef;
-  padding-top: 15px; }
-
-#rightSideContentNewsInner a {
-  font-size: .875em;
-  color: #CCC;
-  font-weight: 200; }
-
-#rightSideContentNewsInner a:hover {
-  color: #ffcc00; }
-
-/*REGISTRATION PAGE*/
-.registrationBoxTitle h2 {
-  color: #000;
-  font-size: 2em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  margin-top: 30px; }
-
-#registrationStepsBox {
-  border-left: 1px solid #efefef; }
-
-.registrationBox h3 {
-  font-size: 1.25em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  margin-top: 10px;
-  padding-top: 10px;
-  border-top: 1px solid #efefef; }
-
-.registrationBox h5 {
-  font-size: 1em;
-  font-weight: 200; }
-
-.registerPageMainText p {
-  font-size: .875em; }
-
-#registrationStatus h4 {
-  font-size: 1.25em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  border-left: 3px solid #efefef;
-  border-bottom: 3px solid #efefef;
-  padding-left: 5px; }
-
-#registrationStatus span {
-  color: #CF0900;
-  font-size: 1.25em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-#registerForm {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-/*RULES PAGE*/
-.rulePageSection img {
-  margin: 40px 0px; }
-
-.rulePageSection p {
-  font-size: .875em; }
-
-.rulePageSection h3 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 2em;
-  margin-top: 40px; }
-
-.rulePageSection h5 {
-  color: #CCC;
-  font-size: 1em;
-  font-weight: 200;
-  margin-bottom: 20px; }
-
-.rulePageSection a {
-  background-color: #ffcc00;
-  padding: 8px 12px;
-  color: #000;
-  font-size: .875em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-.rulePageSection a:hover {
-  color: #fff; }
-
-/*PRIVACY PAGE*/
-.privacySection h3 {
-  color: #ffcc00;
-  font-size: 1em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-.privacySection p {
-  font-size: .875em; }
-
-.privacySection a {
-  font-size: .875em;
-  color: #ffcc00; }
-
-/*SPONSORS PAGE*/
-.leaguePartners h3 {
-  color: #ffcc00;
-  font-size: 2em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-.imageBoxSponsor {
-  height: 150px; }
-
-.imageBoxSponsorSmall {
-  height: 90px; }
-
-.leaguePartners img {
-  height: 80%;
-  padding-top: 30px;
-  display: block;
-  margin: 0 auto; }
-
-.leaguePartners p {
-  font-size: .875em;
-  color: #272727;
-  font-weight: bold;
-  margin-top: 30px;
-  border-top: 1px solid #CCC;
-  padding-top: 30px;
-  text-align: center; }
-
-/*ADVERTISE PAGE*/
-#adDescSection {
-  margin-top: 30px; }
-
-#adDescSection p {
-  font-size: .875em; }
-
-#adoptionsSection p {
-  font-size: .875em; }
-
-/*CHAMPIONS PAGE*/
-#championsBanner {
-  height: auto;
-  padding: 30px 0px 30px 0px;
-  background-color: #000;
-  background-image: url(../images/champions_header.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  box-shadow: inset 0 -120px 50px rgba(0, 0, 0, 0.8);
-  margin-bottom: 20px; }
-
-#champBannerNames {
-  padding: 10px 0px;
-  background-color: #666; }
-
-#champBannerNames h6 {
-  text-align: center;
-  color: #333;
-  font-size: .75em;
-  font-weight: 500;
-  margin: 0;
-  padding: 0; }
-
-#champBannerNames span {
-  margin: 0px 10px 0px 10px;
-  color: #333; }
-
-#championsSportsmanBack {
-  padding: 20px 0px;
-  background-color: #efefef;
-  background-image: url(../images/champSportsmanBack.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 20px 0px; }
-
-#championsSportsmanBack img {
-  max-height: 350px;
-  margin: 10px 10px; }
-
-#championsTruckBack {
-  padding: 20px 0px;
-  background-color: #CCC;
-  background-image: url(../images/champTruckBack.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 20px 0px; }
-
-#championsTruckBack img {
-  max-height: 350px;
-  margin: 10px 10px; }
-
-#championsSuperBack {
-  padding: 20px 0px;
-  background-color: #efefef;
-  background-image: url(../images/champSLMBack.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 20px 0px; }
-
-#championsSuperBack img {
-  max-height: 350px;
-  margin: 10px 10px; }
-
-/*TRACK RECORDS PAGE*/
-.trackBox {
-  margin-bottom: 20px; }
-
-.trackBoxText {
-  background-color: #efefef;
-  padding: 5px;
-  padding-bottom: 20px; }
-
-.trackBoxText h4 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 1.5em;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #CCC;
-  padding-left: 10px;
-  padding-top: 5px; }
-
-.trackBoxText h5 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 1em;
-  padding-left: 10px;
-  padding-bottom: 5px; }
-
-.trackBoxText p {
-  font-size: .875em;
-  padding-left: 10px;
-  line-height: .5em; }
-
-.trackRecordsLinks ul li {
-  display: inline; }
-
-.trackRecordsLinks ul li a {
-  color: #000;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  border: 2px solid #000;
-  padding: 5px 8px;
-  margin-right: 10px; }
-
-.trackRecordsLinks ul li a:hover {
-  color: #ffcc00;
-  border: 2px solid #ffcc00; }
-
-/*ALL TIME WINS LIST*/
-#winsListDesc {
-  font-size: .875em; }
-
-.allTimeWinsText {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 1em;
-  padding-top: 5px;
-  color: #666; }
-
-.allTimeWinsText span {
-  font-size: 1.5em;
-  color: #000;
-  padding-left: 5px; }
-
-/*LEAGUE RECORDS*/
-.leagueRecordPageSection img {
-  margin: 40px 0px; }
-
-.leagueRecordPageSection p {
-  font-size: .875em; }
-
-.leagueRecordPageSection h3 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 2em;
-  margin-top: 40px; }
-
-.leagueRecordPageSection h5 {
-  color: #999;
-  font-size: 1em;
-  font-weight: 200;
-  margin-bottom: 20px; }
-
-/*SPECIAL EVENTS*/
-#specialEventsPosters {
-  margin-top: 20px; }
-
-#specialEventsPosters img {
-  padding-top: 20px; }
-
-.specialEventsPageSection p {
-  font-size: .875em; }
-
-.specialEventsPageSection h3 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 2em;
-  margin-top: 40px; }
-
-.specialEventsPageSection h5 {
-  color: #999;
-  font-size: 1em;
-  font-weight: 200;
-  margin-bottom: 20px; }
-
-.specialEventsPageSection a {
-  background-color: #ffcc00;
-  padding: 8px 12px;
-  color: #000;
-  font-size: .875em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-.specialEventsPageSection a:hover {
-  color: #fff; }
-
-/*VIDEO PAGE*/
-#upperEdgeVid {
-  height: auto;
-  margin-top: 60px; }
-
-.videoPageModalBox {
-  background-color: #efefef;
-  padding: 10px;
-  margin-top: 40px; }
-
-.videoPageModalBox h4 {
-  font-size: .875em;
-  font-weight: 500;
-  text-align: center;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #999;
-  margin-bottom: 10px;
-  height: 70px;
-  cursor: pointer; }
-
-.videoPageModalBox a {
-  color: #000; }
-
-.videoPageModalBox a:hover {
-  color: #666; }
-
-.videoPageModalBox img {
-  display: block;
-  margin: 0 auto;
-  cursor: pointer;
-  transition: .5s ease-in-out; }
-
-.videoPageModalBox img:hover {
-  opacity: 0.7; }
-
-#BottomVideoArea {
-  margin-top: 20px;
-  padding-top: 20px;
-  border-top: 1px solid #efefef; }
-
-#BottomVideoArea h4 {
-  font-size: 1.75em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-#BottomVideoArea p {
-  font-size: .875em; }
-
-#BottomVideoArea a {
-  border: 2px solid #000;
-  color: #000;
-  padding: 10px;
-  font-size: 1em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-#BottomVideoArea a:hover {
-  border: 2px solid #ffcc00;
-  color: #ffcc00; }
-
-.videoControlIcon {
-  width: 25px;
-  cursor: pointer;
-  margin-bottom: 10px; }
-
-.videoControlIcon:hover {
-  opacity: .5; }
-
-#timeScrub {
-  width: 100%;
-  margin: 0 auto; }
-
-input[type=range] {
-  -webkit-appearance: none;
-  border: 1px solid white;
-  width: 100%; }
-
-input[type=range]::-webkit-slider-runnable-track {
-  width: 100%;
-  height: 5px;
-  background: #ddd;
-  border: none;
-  border-radius: 3px; }
-
-input[type=range]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  border: none;
-  height: 16px;
-  width: 16px;
-  border-radius: 50%;
-  background: #ffcc00;
-  margin-top: -4px; }
-
-input[type=range]:focus {
-  outline: none; }
-
-input[type=range]:focus::-webkit-slider-runnable-track {
-  background: #ccc; }
-
-input[type=range]::-moz-range-track {
-  width: 100%;
-  height: 5px;
-  background: #ddd;
-  border: none;
-  border-radius: 3px; }
-
-input[type=range]::-moz-range-thumb {
-  border: none;
-  height: 16px;
-  width: 16px;
-  border-radius: 50%;
-  background: #ffcc00; }
-
-input[type=range]:-moz-focusring {
-  outline: 1px solid white;
-  outline-offset: -1px; }
-
-input[type=range]::-ms-track {
-  width: 100%;
-  height: 5px;
-  background: transparent;
-  border-color: transparent;
-  border-width: 6px 0;
-  color: transparent; }
-
-input[type=range]::-ms-fill-lower {
-  background: #777;
-  border-radius: 10px; }
-
-input[type=range]::-ms-fill-upper {
-  background: #ddd;
-  border-radius: 10px; }
-
-input[type=range]::-ms-thumb {
-  border: none;
-  height: 16px;
-  width: 16px;
-  border-radius: 50%;
-  background: #ffcc00; }
-
-input[type=range]:focus::-ms-fill-lower {
-  background: #888; }
-
-input[type=range]:focus::-ms-fill-upper {
-  background: #ccc; }
-
-#playerRightSide {
-  margin-top: 60px; }
-
-.thumbs img {
-  display: block;
-  margin-bottom: 5px;
-  cursor: pointer; }
-
-.thumbs img:hover {
-  opacity: .5; }
-
-.thumbs h4 {
-  font-size: 1em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  margin-top: 0; }
-
-/*SLM CLASH PAGE*/
-#clashBanner {
-  height: auto;
-  padding: 30px 0px 30px 0px;
-  background-color: #000;
-  background-image: url(../images/clash_header.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  box-shadow: inset 0 -120px 50px rgba(0, 0, 0, 0.8);
-  margin-bottom: 20px; }
-
-#clashBannerText h2 {
-  color: #fff;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 2.5em;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
-  margin: 140px 0px 10px 20px; }
-
-.clashEventPageSection h3 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 2em;
-  margin-top: 40px; }
-
-.clashEventPageSection h4 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 1.875em;
-  margin-top: 10px; }
-
-.clashEventPageSection p {
-  font-size: .750em; }
-
-.clashEventPageSection img {
-  padding: 10px 0px; }
-
-.clashEventPageSection h5 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 1.5em;
-  margin-top: 10px;
-  color: #666;
-  border-bottom: 1px solid #CCC;
-  padding-bottom: 10px; }
-
-#innaguralClashText h2 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 1.5em; }
-
-#innaguralClashText h3 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 1.5em;
-  color: #005cab; }
-
-#innaguralClashText p {
-  font-size: .875em; }
-
-#clashVidArea {
-  margin-top: 60px; }
-
-/*SPONSORSHIP OPPORTUNITIES PAGE*/
-#goldSponsorship {
-  background-color: #cfaf58;
-  margin: 30px 0px 20px 0px; }
-
-#silverSponsorship {
-  background-color: #d7d7d7;
-  margin: 30px 0px 20px 0px; }
-
-#bronzeSponsorship {
-  background-color: #a1886f;
-  margin: 30px 0px 20px 0px; }
-
-.sponsorshipPageSection h3 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 2em;
-  margin-top: 10px; }
-
-.sponsorshipPageSection h4 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 1.5em;
-  margin-top: 10px; }
-
-.sponsorshipPageSection p {
-  font-size: .875em; }
-
-.goldBox {
-  background-color: #e7cb80;
-  padding: 8px;
-  margin-bottom: 5px;
-  margin-top: 5px; }
-
-.silverBox {
-  background-color: #efefef;
-  padding: 8px;
-  margin-bottom: 5px;
-  margin-top: 5px; }
-
-.bronzeBox {
-  background-color: #c4a98d;
-  padding: 8px;
-  margin-bottom: 5px;
-  margin-top: 5px; }
-
-/*TERMS OF USE*/
-.termsSection h3 {
-  color: #ffcc00;
-  font-size: 1em;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-.termsSection p {
-  font-size: .875em; }
-
-.termsSection a {
-  font-size: .875em;
-  color: #ffcc00; }
-
-.termsSection a:hover {
-  color: #000; }
-
-/*SERIES INFO PAGE*/
-.seriesPageSection img {
-  margin: 20px 0px; }
-
-.seriesPageSection p {
-  font-size: .875em; }
-
-.seriesPageSection h3 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 2em;
-  margin-top: 10px; }
-
-.seriesPageSection h5 {
-  color: #CCC;
-  font-size: 1em;
-  font-weight: 200;
-  margin-bottom: 20px; }
-
-/*RACE CENTER LIVE PAGE*/
-#liveBanner {
-  height: auto;
-  padding: 30px 0px 30px 0px;
-  background-color: #000;
-  background-image: url(../images/live_header.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  box-shadow: inset 0 -120px 50px rgba(0, 0, 0, 0.7);
-  margin-bottom: 20px; }
-
-#liveBanner img {
-  max-width: 50%;
-  padding: 50px 0px; }
-
-#eventInfoLiveBoxBack {
-  margin-bottom: 20px;
-  background: #2b2b2b;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #2b2b2b 0%, #3a3a3a 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2b2b2b), color-stop(100%, #3a3a3a));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #2b2b2b 0%, #3a3a3a 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #2b2b2b 0%, #3a3a3a 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #2b2b2b 0%, #3a3a3a 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #2b2b2b 0%, #3a3a3a 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b2b2b', endColorstr='#3a3a3a',GradientType=0 );
-  /* IE6-9 */
-  border-top: 2px solid #CCC; }
-
-#eventInfoLiveBoxBack h5 {
-  color: #fff;
-  font-size: .75em;
-  text-align: center;
-  margin-bottom: 8px;
-  padding-top: 5px; }
-
-#eventInfoLiveBoxBack h3 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 1em;
-  color: #ffcc00;
-  text-align: center; }
-
-#eventInfoLiveBoxBack img {
-  max-height: 50px;
-  padding-top: 12px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto; }
-
-.liveInfoSection {
-  padding-right: 1px solid #000; }
-
-#logoArea {
-  margin-top: 30px;
-  margin-bottom: 30px; }
-
-#liveTime h2 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 2em; }
-
-#liveTime a {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: .875em;
-  color: #ffcc00; }
-
-#liveTime a:hover {
-  color: #000; }
-
-#sponsorsBoxlivePage img {
-  padding-bottom: 20px;
-  width: 80%;
-  display: block;
-  margin: 0 auto; }
-
-#sponsorsBoxlivePage h4 {
-  font-size: .675em;
-  color: #CCC;
-  border-bottom: 1px solid #efefef;
-  padding: 0px 10px 10px 10px;
-  margin-bottom: 20px; }
-
-/*POWER RANKINGS PAGE*/
-#logoAreaPowerRanks {
-  margin-top: 30px;
-  margin-bottom: 30px; }
-
-.powerRankRow {
-  padding-top: 8px; }
-
-.powerRankRow h4 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 1.5em;
-  color: #ffcc00;
-  background-color: #272727;
-  width: 35px;
-  border-radius: 50%;
-  padding-left: 10px; }
-
-.powerRankRow h3 {
-  font-size: 1.25em;
-  font-weight: bold; }
-
-.powerRankRow h5 {
-  font-size: .875em;
-  color: #666;
-  font-weight: 200;
-  padding-bottom: 5px; }
-
-.powerRankRow p {
-  font-size: .875em;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-top: 1px solid #CCC;
-  border-bottom: 1px solid #CCC;
-  margin-top: 10px; }
-
-.powerRankArrowsUp {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  color: #090;
-  padding-top: 14px; }
-
-.powerRankArrowsDown {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  color: #BF1400;
-  padding-top: 14px; }
-
-/*SCHEDULE PAGES*/
-.darkGreyFullWidthSchedule {
-  background-color: #efefef;
-  margin: 0px 0px 0px 0px;
-  border-bottom: 2px solid #E1E1E1; }
-
-.lightGreyFullWidthSchedule {
-  background-color: #f8f8f8;
-  margin: 0px 0px 0px 0px;
-  border-bottom: 2px solid #E1E1E1; }
-
-.eliminationGreyFullWidthSchedule {
-  background-color: #ffcc00;
-  margin: 0px 0px 0px 0px; }
-
-.clashGreyFullWidthSchedule {
-  background-color: #005ca9;
-  margin: 0px 0px 0px 0px; }
-
-.schedulePageRow {
-  padding: 10px 0px; }
-
-.schedulePageRow h4 {
-  font-weight: bold;
-  font-size: 1em; }
-
-.schedulePageRow h1 {
-  font-weight: bold;
-  font-size: 1em;
-  text-align: center;
-  margin: 0; }
-
-.schedulePageRow span {
-  color: #666;
-  border-left: 1px solid #E1E1E1;
-  padding-left: 5px;
-  margin-left: 5px; }
-
-.schedulePageRow h5 {
-  font-weight: 300;
-  font-size: .875em; }
-
-.schedulePageRow a {
-  font-weight: bold;
-  font-size: .875em;
-  color: #000; }
-
-.schedulePageRow a:hover {
-  color: #CCC;
-  border-bottom: 1px solid #CCC; }
-
-.scheduleLogo img {
-  max-height: 55px;
-  display: block;
-  margin: 0 auto; }
-
-.scheduleEvent {
-  border-right: 2px solid #E1E1E1; }
-
-#superScheduleClash {
-  background-color: #cbcbcb;
-  background-image: url(../images/scheudleSLM_ClashBG.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 40px 0px 40px 0px;
-  margin: 40px 0px; }
-
-.scheduleClashDescText h3 {
-  font-size: 2.5em;
-  font-weight: 300;
-  padding: 0px 0px 20px 0px;
-  margin: 0px;
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif; }
-
-.scheduleClashDescText h5 {
-  font-size: 1em;
-  font-weight: 600;
-  padding: 0px 0px 10px 0px;
-  margin: 0px 0px 5px 0px;
-  border-bottom: 1px dashed #666; }
-
-.scheduleClashDescText p {
-  font-size: .875em;
-  font-weight: 300;
-  line-height: 1.6em;
-  padding: 0px;
-  margin: 0px 0px 15px 0px; }
-
-.scheduleClashDescText h2 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 1em; }
-
-.scheduleClashDescText a {
-  color: #000;
-  background-color: #ffcc00;
-  padding: 8px 20px; }
-
-.scheduleClashDescText a:hover {
-  color: #ffcc00;
-  background-color: #000; }
-
-.brawlScheduleBack {
-  background-color: #94a0ac;
-  background-image: url(../images/scheudleTruck_BrawlBG.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 20px 0px 20px 0px; }
-
-.allStarScheduleBack {
-  background-color: #f8f8f8;
-  background-image: url(../images/scheudleTruck_BrawlBG.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 20px 0px 20px 0px; }
-
-/*TEAMS PAGE*/
-.teamPageSection img {
-  margin: 40px 0px; }
-
-.teamPageSection p {
-  font-size: .875em; }
-
-.teamPageSection h3 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 2em;
-  margin-top: 40px;
-  border-bottom: 1px solid #efefef; }
-
-.teamPageSection h5 {
-  color: #999;
-  font-size: 1em;
-  font-weight: 200;
-  margin-bottom: 20px; }
-
-.teamPageSection h4 {
-  font-size: .875em;
-  margin-bottom: 10px; }
-
-.teamPageSection h2 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 1em;
-  margin-bottom: 10px; }
-
-/*STANDINGS PAGE*/
-.standingsEventInfoBoxBack {
-  margin-bottom: 20px;
-  background: #2b2b2b;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #2b2b2b 0%, #3a3a3a 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2b2b2b), color-stop(100%, #3a3a3a));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #2b2b2b 0%, #3a3a3a 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #2b2b2b 0%, #3a3a3a 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #2b2b2b 0%, #3a3a3a 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #2b2b2b 0%, #3a3a3a 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b2b2b', endColorstr='#3a3a3a',GradientType=0 );
-  /* IE6-9 */
-  border-top: 2px solid #CCC; }
-
-.standingsEventInfoBoxBack h5 {
-  color: #fff;
-  font-size: .75em;
-  text-align: center;
-  margin-bottom: 8px;
-  padding-top: 5px; }
-
-.standingsEventInfoBoxBack h3 {
-  font-family: 'bebas_neueregular', Arial, Sans-serif, serif;
-  font-size: 1em;
-  color: #ffcc00;
-  text-align: center; }
-
-.button {
-  background-color: #ffcc00;
-  padding: 8px;
-  font-size: .75em;
-  width: 100%;
-  color: #000; }
-
-.button:hover {
-  background-color: #fed64a;
-  color: #000; }
-
-/*RESULTS PAGE*/
-.resultsRowDark {
-  background-color: #333; }
-
-.resultsRowDark h4 {
-  color: #fff;
-  font-size: .75em;
-  padding-top: 5px; }
-
-.resultsRowLight {
-  background-color: #fff;
-  padding: 10px 0px; }
-
-.resultsRowLight h4 {
-  color: #000;
-  font-size: .875em;
-  padding-top: 5px; }
-
-.resultsRowMid {
-  background-color: #dedede;
-  padding: 10px 0px; }
-
-.resultsRowMid h4 {
-  color: #000;
-  font-size: .875em;
-  padding-top: 5px; }
-
-.seriesChangeButton {
-  position: relative;
-  background-color: #353434;
-  z-index: 50;
-  width: 50%; }
-  .seriesChangeButton a {
-    text-align: center;
-    font-size: .875em;
-    color: #fff;
-    font-family: "Open Sans", sans-serif;
-    padding-top: 5px; }
+.clearfix {
+  overflow: auto; }
 
 img {
   border: 0;
@@ -2634,82 +31,11 @@ img {
   color: white;
   padding-bottom: 12px; }
 
-.scs_title {
-  background: #ffd200 !important;
-  text-align: center;
-  color: white !important; }
-
-.cmlt_title {
-  background: #174acc !important;
-  color: white !important;
-  text-align: center; }
-
-#homeNewsMainLower {
-  background-color: #3a3a3a;
-  padding-bottom: 10px; }
-  #homeNewsMainLower ul {
-    padding: 0;
-    margin: 0;
-    margin-left: 15px; }
-    #homeNewsMainLower ul li {
-      list-style-type: none;
-      display: inline;
-      margin-right: 15px; }
-  #homeNewsMainLower img {
-    min-width: 100%; }
-  #homeNewsMainLower a {
-    color: #6dff01;
-    font-family: "Play", sans-serif;
-    font-weight: 700;
-    margin-right: 25px; }
-    #homeNewsMainLower a:hover {
-      border-left: none;
-      padding-left: 0;
-      margin-left: 0; }
-
-.title_news {
-  color: #000;
-  font-size: 0.9em; }
-  .title_news a {
-    transform-origin: bottom right;
-    -ms-transform: skew(-8deg, 0deg);
-    -webkit-transform: skew(-8deg, 0deg);
-    transform: skew(-8deg, 0deg);
-    background-color: #35cd00;
-    padding: 5px 20px;
-    margin-top: 5px;
-    color: #000;
-    font-size: .7em;
-    font-weight: 700; }
-  .title_news p {
-    height: 28px;
-    font-weight: 700;
-    font-size: .9em; }
-
 .homeBottomBox h2 {
   font-size: 1.75em;
   padding: 12px 12px 0px 12px;
   margin: 0px;
   border: none; }
-
-#homeAboutSection a {
-  color: #000;
-  font-weight: 700; }
-
-#homeAboutSection a:hover {
-  text-decoration: none; }
-
-#homeAboutSection {
-  background: url(../images/drivers_info.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  opacity: 1;
-  background-size: cover; }
-
-#homeMainBanner {
-  padding: 40px 0px 40px 0px;
-  background: url(../images/ocrl_header.png);
-  background-size: cover; }
 
 #aboutimages {
   max-height: 188px;
@@ -2736,12 +62,6 @@ img {
   text-align: center; }
   #championsBanner #champsheader {
     max-width: 40%; }
-
-#championsSportsmanBack {
-  background: url(http://www.upperedgeracing.com/images/champSportsmanBack.jpg); }
-
-.aboutPageFullWidthColor {
-  background: url(http://www.upperedgeracing.com/images/squared_metal.png); }
 
 #series_info {
   text-align: center; }
@@ -2810,155 +130,10 @@ img {
 .newsContentArea h4 {
   height: 60px; }
 
-#nextEventBox {
-  background-color: #3a3a3a; }
-  #nextEventBox #eventicon {
-    width: 40%; }
-  #nextEventBox #racedetails {
-    background: #888c85;
-    width: 40%;
-    text-align: center;
-    margin: 0 auto;
-    padding: 8px;
-    margin-top: 15px; }
-    #nextEventBox #racedetails a {
-      color: #000000;
-      font-family: "Play", sans-serif;
-      font-weight: 700;
-      text-transform: uppercase; }
-      #nextEventBox #racedetails a:hover {
-        text-decoration: none; }
-
-#nextEventRow {
-  padding: 30px 0px;
-  background-color: #888c85;
-  text-align: center;
-  max-height: 115px; }
-  #nextEventRow h4 {
-    text-align: left;
-    font-weight: 700;
-    font-family: "Open Sans", sans-serif;
-    text-transform: uppercase;
-    font-size: 0.90em; }
-  #nextEventRow h5 {
-    color: #000;
-    text-align: left;
-    font-family: "Play", sans-serif;
-    font-size: 1.2em;
-    font-style: normal;
-    font-weight: 700; }
-  #nextEventRow h6 {
-    color: #000;
-    text-align: left;
-    font-family: "Play", sans-serif;
-    font-size: 1.2em;
-    font-style: normal;
-    font-weight: 700; }
-  #nextEventRow .view_more {
-    background-color: #3a3a3a; }
-
-#nextEventTitles {
-  border-right: 1px solid #3d454c;
-  height: 70px;
-  margin-left: 60px; }
-
-#cmltsstandings {
-  background: #3a3a3a;
-  height: 410px;
-  float: left;
-  max-width: 640px;
-  margin-right: 15px;
-  padding: 10px; }
-  #cmltsstandings img {
-    float: right;
-    width: 40%; }
-  #cmltsstandings .series_upcoming {
-    float: left;
-    height: 124px; }
-  #cmltsstandings .seasonstandings {
-    height: 262px;
-    float: left;
-    width: 308px;
-    margin-top: 10px; }
-  #cmltsstandings .raceresults {
-    height: 262px;
-    float: right;
-    width: 308px;
-    margin-top: 10px; }
-  #cmltsstandings iframe {
-    border: none; }
-
-#standings {
-  background: #3a3a3a;
-  height: 410px;
-  float: left;
-  max-width: 640px;
-  margin-right: 15px;
-  padding: 10px; }
-  #standings img {
-    float: left;
-    width: 40%; }
-  #standings .series_upcoming {
-    float: right;
-    height: 124px; }
-  #standings .seasonstandings {
-    height: 262px;
-    float: left;
-    width: 308px;
-    margin-top: 10px; }
-  #standings .raceresults {
-    height: 262px;
-    float: right;
-    width: 308px;
-    margin-top: 10px; }
-  #standings iframe {
-    border: none; }
-
-.clearfix {
-  overflow: auto; }
-
-.homeBottomBoxSection {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 300px; }
-
-#mainFooterBar {
-  background-color: transparent;
-  height: 200px;
-  margin-top: 0; }
-  #mainFooterBar #footerLogo {
-    height: 20%;
-    width: 20%; }
-  #mainFooterBar #footerNav ul {
-    width: 65%;
-    text-align: left; }
-    #mainFooterBar #footerNav ul li {
-      border-right: 1px solid white;
-      padding-right: 30px; }
-      #mainFooterBar #footerNav ul li a {
-        font-size: .9em;
-        color: #aaaaaa; }
-        #mainFooterBar #footerNav ul li a:hover {
-          color: #32FF00;
-          text-decoration: none; }
-      #mainFooterBar #footerNav ul li:last-child {
-        border-right: none; }
-  #mainFooterBar #footerLegal {
-    margin-top: 20px;
-    margin-bottom: 20px; }
-    #mainFooterBar #footerLegal p {
-      font-size: 0.9em;
-      color: #aaaaaa; }
-
 #recentposts {
   background: #3A3A3A;
   border: none;
   margin-top: 15px; }
-
-.single_post .sidebar {
-  background: #122111;
-  text-align: right;
-  width: 100%; }
 
 #top-bar {
   background: #888c85;
@@ -3084,6 +259,47 @@ img {
     line-height: 43px;
     margin-left: 56px; }
 
+#homeMainBanner {
+  padding: 40px 0px 40px 0px;
+  background: url(../images/ocrl_header.png);
+  background-size: cover; }
+  #homeMainBanner #homeNewsSection {
+    margin-top: 30px; }
+  #homeMainBanner #homeNewsMainLower {
+    background-color: #3a3a3a;
+    padding-bottom: 10px; }
+    #homeMainBanner #homeNewsMainLower ul {
+      padding: 0;
+      margin: 0;
+      margin-left: 15px; }
+      #homeMainBanner #homeNewsMainLower ul li {
+        list-style-type: none;
+        display: inline;
+        margin-right: 15px; }
+    #homeMainBanner #homeNewsMainLower img {
+      min-width: 100%; }
+    #homeMainBanner #homeNewsMainLower a {
+      color: #6dff01;
+      font-family: "Play", sans-serif;
+      font-weight: 700;
+      margin-right: 25px; }
+      #homeMainBanner #homeNewsMainLower a:hover {
+        border-left: none;
+        padding-left: 0;
+        margin-left: 0; }
+    #homeMainBanner #homeNewsMainLower h1 {
+      color: #fff;
+      font-size: 1.65em;
+      padding: 8px 8px 0px 8px;
+      font-family: "Play", sans-serif;
+      font-weight: 700; }
+    #homeMainBanner #homeNewsMainLower p {
+      color: #fff;
+      font-size: .75em;
+      padding: 0px 8px;
+      font-family: "Open Sans", sans-serif;
+      line-height: 1.6em; }
+
 .nav-tabs > li > a:hover {
   border: none; }
 
@@ -3105,6 +321,235 @@ img {
   background-color: transparent;
   border: none;
   border-bottom-color: transparent; }
+
+.seriesChangeButton {
+  position: relative;
+  background-color: #353434;
+  z-index: 50;
+  width: 50%; }
+  .seriesChangeButton a {
+    text-align: center;
+    font-size: .875em;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 5px; }
+
+.scs_title {
+  background: #ffd200 !important;
+  text-align: center;
+  color: white !important; }
+
+.cmlt_title {
+  background: #174acc !important;
+  color: white !important;
+  text-align: center; }
+
+#nextEventBox {
+  background-color: #3a3a3a;
+  text-align: center;
+  font-family: "Play", sans-serif;
+  height: auto;
+  padding-bottom: 20px; }
+  #nextEventBox h2 {
+    color: #fff;
+    font-size: 2.25em;
+    margin: 8px 0px 0px 0px;
+    font-weight: 700; }
+  #nextEventBox h3 {
+    color: #fff;
+    font-size: 1.125em;
+    margin: 0px 0px 8px 0px;
+    font-weight: 700; }
+  #nextEventBox #nextDate {
+    color: #fff;
+    font-size: 1.8em;
+    margin: 8px 0px 0px 0px; }
+  #nextEventBox #eventicon {
+    width: 40%; }
+  #nextEventBox #racedetails {
+    background: #888c85;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 8px;
+    margin-top: 15px; }
+    #nextEventBox #racedetails a {
+      color: #000000;
+      font-family: "Play", sans-serif;
+      font-weight: 700;
+      text-transform: uppercase; }
+      #nextEventBox #racedetails a:hover {
+        text-decoration: none; }
+
+#latestNews {
+  padding: 30px 0px;
+  background-color: #888c85;
+  text-align: center;
+  max-height: 115px; }
+  #latestNews h4 {
+    text-align: left;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 0.90em;
+    margin: 15px 0px 0px 0px; }
+  #latestNews h5 {
+    color: #000;
+    text-align: left;
+    font-family: "Play", sans-serif;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+    padding: 0; }
+  #latestNews h6 {
+    color: #000;
+    text-align: left;
+    font-family: "Play", sans-serif;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+    padding: 0; }
+  #latestNews .view_more {
+    background-color: #3a3a3a;
+    padding: 5px 10px;
+    color: #fff; }
+  #latestNews #nextEventTitles {
+    border-right: 1px solid #3d454c;
+    height: 70px;
+    margin-left: 60px; }
+
+.title_news {
+  color: #000;
+  font-size: 0.9em; }
+  .title_news a {
+    transform-origin: bottom right;
+    -ms-transform: skew(-8deg, 0deg);
+    -webkit-transform: skew(-8deg, 0deg);
+    transform: skew(-8deg, 0deg);
+    background-color: #35cd00;
+    padding: 5px 20px;
+    margin-top: 5px;
+    color: #000;
+    font-size: .7em;
+    font-weight: 700; }
+  .title_news p {
+    height: 28px;
+    font-weight: 700;
+    font-size: .9em; }
+
+.lastest_races {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 300px; }
+  .lastest_races #standings {
+    background: #3a3a3a;
+    height: 410px;
+    float: left;
+    max-width: 640px;
+    margin-right: 15px;
+    padding: 10px; }
+    .lastest_races #standings img {
+      float: left;
+      width: 40%; }
+    .lastest_races #standings .series_upcoming {
+      float: right;
+      height: 124px; }
+    .lastest_races #standings .seasonstandings {
+      height: 262px;
+      float: left;
+      width: 308px;
+      margin-top: 10px; }
+    .lastest_races #standings .raceresults {
+      height: 262px;
+      float: right;
+      width: 308px;
+      margin-top: 10px; }
+    .lastest_races #standings iframe {
+      border: none; }
+  .lastest_races #cmltsstandings {
+    background: #3a3a3a;
+    height: 410px;
+    float: left;
+    max-width: 640px;
+    margin-right: 15px;
+    padding: 10px; }
+    .lastest_races #cmltsstandings img {
+      float: right;
+      width: 40%; }
+    .lastest_races #cmltsstandings .series_upcoming {
+      float: left;
+      height: 124px; }
+    .lastest_races #cmltsstandings .seasonstandings {
+      height: 262px;
+      float: left;
+      width: 308px;
+      margin-top: 10px; }
+    .lastest_races #cmltsstandings .raceresults {
+      height: 262px;
+      float: right;
+      width: 308px;
+      margin-top: 10px; }
+    .lastest_races #cmltsstandings iframe {
+      border: none; }
+
+#driver_resources {
+  background: url(../images/drivers_info.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 1;
+  background-size: cover;
+  text-align: center; }
+  #driver_resources h1 {
+    font-size: 2em;
+    margin: 0px;
+    border: none;
+    padding: 90px 0px; }
+  #driver_resources a {
+    color: #000;
+    font-weight: 700; }
+    #driver_resources a:hover {
+      text-decoration: none;
+      color: #32FF00; }
+
+#mainFooter {
+  background-color: transparent;
+  height: 200px;
+  margin-top: 0;
+  text-align: center;
+  padding-top: 30px; }
+  #mainFooter #footerLogo {
+    height: 20%;
+    width: 20%;
+    margin-bottom: 20px; }
+  #mainFooter #footerNav ul {
+    width: 65%;
+    text-align: left;
+    margin: 0 auto; }
+    #mainFooter #footerNav ul li {
+      border-right: 1px solid white;
+      padding-right: 30px;
+      display: inline; }
+      #mainFooter #footerNav ul li a {
+        font-size: .9em;
+        color: #aaaaaa;
+        margin-left: 15px;
+        padding-left: 15px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center; }
+        #mainFooter #footerNav ul li a:hover {
+          color: #32FF00;
+          text-decoration: none; }
+      #mainFooter #footerNav ul li:last-child {
+        border-right: none; }
+  #mainFooter #footerLegal {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+    #mainFooter #footerLegal p {
+      font-size: 0.9em;
+      color: #aaaaaa; }
 
 @media (min-width: 768px) {
   .dropdown:hover .dropdown-menu {
@@ -3140,13 +585,11 @@ img {
       background: transparent;
       padding-top: 10px; } }
 @media (max-width: 1280px) {
-  .homeBottomBoxSection {
-    margin-top: 0;
-    margin-bottom: 0;
+  .lastest_races {
     margin-left: 0; }
-    .homeBottomBoxSection #standings {
+    .lastest_races #standings {
       max-width: 636px;
       margin-right: 6px; }
-    .homeBottomBoxSection #cmltsstandings {
+    .lastest_races #cmltsstandings {
       max-width: 638px;
       margin-right: 0; } }
