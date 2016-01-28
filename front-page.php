@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div id="homeMainBanner">
     <div class="container">
-    	<div class="row" id="homeNewsSection"><!--Open homeNewsSection-->
+    	<div class="row" id="homeNewsSection">
 	        <div class="col-md-8">
 	        	<div id="homeNewsMainLower">
 	            	<img src="<?php echo the_field('banner_image'); ?>" alt="Main Banner Image">
@@ -40,10 +40,9 @@
 		        	<iframe width="100%" height="100%" src="http://theocrl.info/recent.php" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$d8732.1.$comp-ihihy9ut.1.$comp-ih8id5pn2.0.0"></iframe>
 		        </div>
 	        </div>
-	    </div><!--Close homeNewsSection-->
+	    </div> 
     </div>
-</div>
-
+</div> <!-- end homepage main banner -->
 <div id="latestNews">
 	<div class="container">
 		<div class="row">
@@ -81,8 +80,7 @@
 				?>
         </div>
 	</div>            
-</div>
-
+</div> <!-- end latest news -->
 <div class="lastest_races clearfix">
   <div id="standings">
    		<img src="<?php bloginfo('template_directory'); ?>/images/ocrl_standings.png" alt="" />
@@ -113,9 +111,8 @@
   			<iframe width="100%" height="100%" src="http://www.theocrl.com.usrfiles.com/html/e39ef0_5796ccd4e08c5ce7047b6f643b5f98da.html" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$d8732.1.$comp-ihihy9ut.1.$comp-ihliy5ja.6.$comp-ihlfpzy1.0.0"></iframe>
   		</div>
   </div> 	
-</div>
-
-<div id="driver_resources"><!--Open homeAboutSection-->
+</div> <!-- end latest races information -->
+<div id="driver_resources">
 	<div class="container">
 		<div class="row">
 	    	<div class="col-md-12">
@@ -123,5 +120,5 @@
 	        </div>
     	</div>
 	</div>
-</div>
+</div> <!-- end driver resources -->
 <?php get_footer(); ?>
