@@ -1,0 +1,28 @@
+// Upcoming Events Tabs
+
+.nav-tabs>li>a:hover {
+    border: none;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: $green;
+}
+
+.nav-tabs>li>a {
+    border: none;
+}
+
+.tab-content>.active {
+    display: block;
+    color: white;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: $green;
+    cursor: default;
+    background-color: transparent;
+    border: none;
+    border-bottom-color: transparent;
+}

@@ -1,0 +1,62 @@
+@media (min-width: 768px) {
+	.dropdown:hover .dropdown-menu {
+		display: block;
+	}
+}
+
+@media (max-width: 768px) {
+	.navbar-brand img {
+	    height: 28px;
+    	margin-top: -4px;
+	}
+	.nav{
+		li{
+			z-index: 2000;
+		    background: #ccc;
+		    margin-top: -2px;
+		    position: relative;
+		    top: -5px;
+		}
+	}
+	#mainBannerText {
+    	position: relative;
+       	top: -360px;
+       	h3{
+       		color: #000;
+       	}
+       a{
+       	background-color: $green;
+       	border: none;
+       	color: #000;
+       }
+	}
+	#homeTitleBar{
+		margin-top: 0;
+	}
+
+	#nextEventBox{
+		margin-top: 20px;
+		ul{
+			li{
+				background: transparent;
+				padding-top: 10px;
+			}
+		}
+	}
+}
+
+@media (max-width: 1280px) {
+	.homeBottomBoxSection {
+	    margin-top: 0;
+	    margin-bottom: 0;
+	    margin-left: 0;
+	    #standings{
+	    	max-width: 636px;
+		    margin-right: 6px;
+	    }
+		#cmltsstandings{
+			max-width: 638px;
+			margin-right: 0;
+		}
+	}
+}

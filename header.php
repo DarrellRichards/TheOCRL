@@ -54,7 +54,7 @@
   </div><!-- /.container-fluid -->
 </nav> <!-- end main-nav -->
 
-<section id="bottomNavBar">
+<section id="breaking_news">
   <div class="container">
     <h2 class="hide">Bottom Nav Bar</h2>
       <div class="row">
