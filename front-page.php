@@ -52,32 +52,34 @@
                 <h6>HEADLINES</h6>
                 <h4><a href="/news" class="view_more">View All</a></h4>
             </div>
-            <?php
-					$args = array(
-						'post_type' => 'post',
-						'posts_per_page' => 4
-					);
-					$the_query = new WP_Query( $args );
+           <div class="col-md-10">	
+           		<div class="row">
+           			<?php
+						$args = array(
+							'post_type' => 'post',
+							'posts_per_page' => 4
+						);
+						$the_query = new WP_Query( $args );
 
-					// The Loop
-					if ( $the_query->have_posts() ) {
-						while ( $the_query->have_posts() ) {
-							$the_query->the_post();
-			?>
-	            <div class="col-md-2 nextEventRaces">	
-	            	<div class="title_news">
-	            		<p><?php the_title(); ?></p>
-	            		<a href="<?php the_permalink(); ?>">Read More</a>
-	            	</div>
-	            </div>
-	        <?php
+						// The Loop
+						if ( $the_query->have_posts() ) {
+							while ( $the_query->have_posts() ) {
+								$the_query->the_post();
+					?>
+					<div class="col-md-3 latest_post">
+						<div class="title_news">
+		            		<p><?php the_title(); ?></p>
+		            		<a href="<?php the_permalink(); ?>">Read More</a>
+		            	</div>
+					</div>
+					<?php
 						}
-					} else {
-						// no posts found
-					}
-					/* Restore original Post Data */
-					wp_reset_postdata();
-				?>
+						} else {	
+						}
+						wp_reset_postdata();
+					?>
+           		</div>
+            </div>
         </div>
 	</div>            
 </div> <!-- end latest news -->

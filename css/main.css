@@ -355,8 +355,7 @@ img {
     color: #fff; }
   #latestNews #nextEventTitles {
     border-right: 1px solid #3d454c;
-    height: 70px;
-    margin-left: 60px; }
+    height: 70px; }
 
 .title_news {
   color: #000;
@@ -373,7 +372,7 @@ img {
     font-size: .7em;
     font-weight: 700; }
   .title_news p {
-    height: 28px;
+    height: 35px;
     font-weight: 700;
     font-size: .9em; }
 
