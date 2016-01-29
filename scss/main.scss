@@ -33,9 +33,14 @@ img {
     height: auto;
 }
 
+.ss-text {
+    color: #FFFFFF;
+}
+
 @import "custom";
 @import "header";
 @import "homepage";
 @import "about";
+@import "single";
 @import "footer";
 @import "media";

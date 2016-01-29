@@ -1,0 +1,10 @@
+#single_post{
+	background: $grey;
+	font-family: $open;
+	padding-bottom: 20px;
+	.sidebar{
+		background: lighten($grey, 30%);
+		padding: 10px;
+		margin-top: 10px;
+	}
+}

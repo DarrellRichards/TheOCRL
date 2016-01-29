@@ -22,6 +22,9 @@ img {
   max-width: 100%;
   height: auto; }
 
+.ss-text {
+  color: #FFFFFF; }
+
 #championsBanner {
   text-align: center; }
   #championsBanner #champsheader {
@@ -468,6 +471,15 @@ img {
     .LeagueSeries #series_info .inactive {
       background: black !important;
       color: white; }
+
+#single_post {
+  background: #3A3A3A;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 20px; }
+  #single_post .sidebar {
+    background: #878787;
+    padding: 10px;
+    margin-top: 10px; }
 
 #mainFooter {
   background-color: transparent;
