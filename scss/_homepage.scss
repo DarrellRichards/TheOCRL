@@ -218,6 +218,12 @@
 .lastest_races {
     margin-top: 20px;
     margin-bottom: 20px;
+    .race_recap{
+        iframe{
+            width: 100%!important;
+            height: 269px;
+        }
+    }
     .latest_race_info{
         text-align: center;
         h4{

@@ -88,7 +88,7 @@
   	<div class="row">
   		<div class="col-md-7">
   			<div class="race_recap">
-  				<iframe width="100%" height="300px" src="https://www.youtube.com/embed/Hmwd7TbyVCE" frameborder="0" allowfullscreen></iframe>
+  				<?php the_field('latest_race_video'); ?>
   			</div>
   		</div>
   		<div class="col-md-5">
@@ -97,22 +97,22 @@
   				<div class="row">
   					<div class="col-md-6">
   						<p>Race Winner</p>
-  						<p class="styled">Jeff Baki Jr</p>
+  						<p class="styled"><?php the_field('latest_race_winner'); ?></p>
   						<p>Coors' Light Pole</p>
-  						<p class="styled">Ron Meier Jr</p>
+  						<p class="styled"><?php the_field('latest_race_polesitter'); ?></p>
   						<p>3M Lap Leader</p>
-  						<p class="styled">Larry Scott</p>
+  						<p class="styled"><?php the_field('latest_lap_leader'); ?></p>
   						<p>Fastest Lap</p>
-  						<p class="styled">Larry Scott</p>
+  						<p class="styled"><?php the_field('latest_fast_lap'); ?></p>
   					</div>
   					<div class="col-md-6">
   						<p>Race Duration</p>
-  						<p class="styled">1h:09m</p>
+  						<p class="styled"><?php the_field('latest_race_duration'); ?></p>
   						<p>Race Leaders/Lead Changes</p>
-  						<p class="styled">5 / 9</p>
+  						<p class="styled"><?php the_field('latest_race_leaders'); ?></p>
   						<p># of Cautions</p>
-  						<p class="styled">0</p>
-  						<button href="http://www.danlisa.com/scoring/season_race.php?schedule_id=51648" target="_blank" class="RaceResults">See Race Results</button>
+  						<p class="styled"><?php the_field('race_cautions'); ?></p>
+  						<button href="<?php the_field('latest_race_results'); ?>" target="_blank" class="RaceResults">See Race Results</button>
   					</div>
 				</div>
   			</div>

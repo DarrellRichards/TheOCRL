@@ -382,6 +382,9 @@ img {
 .lastest_races {
   margin-top: 20px;
   margin-bottom: 20px; }
+  .lastest_races .race_recap iframe {
+    width: 100% !important;
+    height: 269px; }
   .lastest_races .latest_race_info {
     text-align: center; }
     .lastest_races .latest_race_info h4 {
