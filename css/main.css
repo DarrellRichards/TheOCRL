@@ -377,84 +377,29 @@ img {
     font-weight: 700;
     font-size: .9em; }
 
-.latest_race_info {
-  text-align: center; }
-  .latest_race_info h4 {
-    font-size: 1.1em;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 2px; }
-  .latest_race_info .styled {
-    color: #32FF00; }
-  .latest_race_info .row-1 {
-    float: left; }
-  .latest_race_info .row-2 {
-    float: right; }
-  .latest_race_info .RaceResults {
-    background: #32FF00;
-    padding: 10px;
-    margin-top: 10px;
-    border: none;
-    color: #000;
-    border-radius: 10px;
-    text-transform: uppercase;
-    width: 100%;
-    font-size: 1em;
-    font-weight: 700;
-    font-family: "Play", sans-serif; }
-
 .lastest_races {
   margin-top: 20px;
   margin-bottom: 20px; }
-  .lastest_races #standings {
-    background: #3a3a3a;
-    height: 410px;
-    float: left;
-    max-width: 640px;
-    margin-right: 15px;
-    padding: 10px; }
-    .lastest_races #standings img {
-      float: left;
-      width: 40%; }
-    .lastest_races #standings .series_upcoming {
-      float: right;
-      height: 124px; }
-    .lastest_races #standings .seasonstandings {
-      height: 262px;
-      float: left;
-      width: 308px;
-      margin-top: 10px; }
-    .lastest_races #standings .raceresults {
-      height: 262px;
-      float: right;
-      width: 308px;
-      margin-top: 10px; }
-    .lastest_races #standings iframe {
-      border: none; }
-  .lastest_races #cmltsstandings {
-    background: #3a3a3a;
-    height: 410px;
-    float: left;
-    max-width: 640px;
-    margin-right: 15px;
-    padding: 10px; }
-    .lastest_races #cmltsstandings img {
-      float: right;
-      width: 40%; }
-    .lastest_races #cmltsstandings .series_upcoming {
-      float: left;
-      height: 124px; }
-    .lastest_races #cmltsstandings .seasonstandings {
-      height: 262px;
-      float: left;
-      width: 308px;
-      margin-top: 10px; }
-    .lastest_races #cmltsstandings .raceresults {
-      height: 262px;
-      float: right;
-      width: 308px;
-      margin-top: 10px; }
-    .lastest_races #cmltsstandings iframe {
-      border: none; }
+  .lastest_races .latest_race_info {
+    text-align: center; }
+    .lastest_races .latest_race_info h4 {
+      font-size: 1.1em;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 2px; }
+    .lastest_races .latest_race_info .styled {
+      color: #32FF00; }
+    .lastest_races .latest_race_info .RaceResults {
+      background: #32FF00;
+      padding: 10px;
+      margin-top: 10px;
+      border: none;
+      color: #000;
+      border-radius: 10px;
+      text-transform: uppercase;
+      width: 100%;
+      font-size: 1em;
+      font-weight: 700;
+      font-family: "Play", sans-serif; }
 
 #driver_resources {
   background: url(../images/drivers_info.jpg);
