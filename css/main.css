@@ -198,7 +198,7 @@ img {
     margin-left: 56px; }
 
 #homeMainBanner {
-  padding: 40px 0px 40px 0px;
+  padding: 0px 0px 40px 0px;
   background: url(../images/ocrl_header.png);
   background-size: cover; }
   #homeMainBanner #homeNewsSection {
@@ -377,10 +377,34 @@ img {
     font-weight: 700;
     font-size: .9em; }
 
+.latest_race_info {
+  text-align: center; }
+  .latest_race_info h4 {
+    font-size: 1.1em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2px; }
+  .latest_race_info .styled {
+    color: #32FF00; }
+  .latest_race_info .row-1 {
+    float: left; }
+  .latest_race_info .row-2 {
+    float: right; }
+  .latest_race_info .RaceResults {
+    background: #32FF00;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    color: #000;
+    border-radius: 10px;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 1em;
+    font-weight: 700;
+    font-family: "Play", sans-serif; }
+
 .lastest_races {
   margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 300px; }
+  margin-bottom: 20px; }
   .lastest_races #standings {
     background: #3a3a3a;
     height: 410px;

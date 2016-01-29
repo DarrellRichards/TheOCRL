@@ -82,34 +82,40 @@
 	</div>            
 </div> <!-- end latest news -->
 <div class="lastest_races clearfix">
-  <div id="standings">
-   		<img src="<?php bloginfo('template_directory'); ?>/images/ocrl_standings.png" alt="" />
-  		<div class="series_upcoming">
-  			<h4>Series Information</h4>
-  			<p class="p_1">Practice #1: Wednesday Nights at 7:00p ET</p>
-  			<p class="p_2">Raceday Practice: Thursday Nights at 8:00p ET</p>
-  			<p class="qual">Qualifying: 8:50p ET (10 Minutes)</p>
+  <div class="container">
+  	<div class="row">
+  		<div class="col-md-7">
+  			<div class="race_recap">
+  				<iframe width="100%" height="300px" src="https://www.youtube.com/embed/Hmwd7TbyVCE" frameborder="0" allowfullscreen></iframe>
+  			</div>
   		</div>
-  		<div class="seasonstandings">
-  			<iframe width="100%" height="100%" src="http://www.theocrl.com.usrfiles.com/html/e39ef0_5796ccd4e08c5ce7047b6f643b5f98da.html" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$d8732.1.$comp-ihihy9ut.1.$comp-ihliy5ja.6.$comp-ihlfpzy1.0.0"></iframe>
+  		<div class="col-md-5">
+  			<div class="latest_race_info">
+  				<h4>2015 WINTER SERIES RACE RECAP & CONTINGENCY AWARDS</h4>
+  				<div class="row">
+  					<div class="col-md-6">
+  						<p>Race Winner</p>
+  						<p class="styled">Jeff Baki Jr</p>
+  						<p>Coors' Light Pole</p>
+  						<p class="styled">Ron Meier Jr</p>
+  						<p>3M Lap Leader</p>
+  						<p class="styled">Larry Scott</p>
+  						<p>Fastest Lap</p>
+  						<p class="styled">Larry Scott</p>
+  					</div>
+  					<div class="col-md-6">
+  						<p>Race Duration</p>
+  						<p class="styled">1h:09m</p>
+  						<p>Race Leaders/Lead Changes</p>
+  						<p class="styled">5 / 9</p>
+  						<p># of Cautions</p>
+  						<p class="styled">0</p>
+  						<button href="http://www.danlisa.com/scoring/season_race.php?schedule_id=51648" target="_blank" class="RaceResults">See Race Results</button>
+  					</div>
+				</div>
+  			</div>
   		</div>
-  		<div class="raceresults">
-  			<iframe width="100%" height="100%" src="http://www.theocrl.com.usrfiles.com/html/e39ef0_5796ccd4e08c5ce7047b6f643b5f98da.html" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$d8732.1.$comp-ihihy9ut.1.$comp-ihliy5ja.6.$comp-ihlfpzy1.0.0"></iframe>
-  		</div>
-  </div> 
-  <div id="cmltsstandings">
-   		<img src="<?php bloginfo('template_directory'); ?>/images/cmlts_standings.png" alt="" />
-  		<div class="series_upcoming">
-  			<h4>Series Information</h4>
-  			<p class="p_2">Raceday Practice: Tuesday Nights at 7:30p ET</p>
-  			<p class="qual">Qualifying: 8:50p ET (10 Minutes)</p>
-  		</div>
-  		<div class="seasonstandings">
-  			<iframe width="100%" height="100%" src="http://www.theocrl.com.usrfiles.com/html/e39ef0_5796ccd4e08c5ce7047b6f643b5f98da.html" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$d8732.1.$comp-ihihy9ut.1.$comp-ihliy5ja.6.$comp-ihlfpzy1.0.0"></iframe>
-  		</div>
-  		<div class="raceresults">
-  			<iframe width="100%" height="100%" src="http://www.theocrl.com.usrfiles.com/html/e39ef0_5796ccd4e08c5ce7047b6f643b5f98da.html" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$d8732.1.$comp-ihihy9ut.1.$comp-ihliy5ja.6.$comp-ihlfpzy1.0.0"></iframe>
-  		</div>
+  	</div>
   </div> 	
 </div> <!-- end latest races information -->
 <div id="driver_resources">
