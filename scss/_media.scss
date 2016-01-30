@@ -5,6 +5,9 @@
 }
 
 @media (max-width: 736px) {
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+		background: transparent;
+	}
 	.navbar-default{
 		.navbar-toggle{
 			border: none;
@@ -117,6 +120,10 @@
 				}
 			}
 		}
+	}
+
+	#recentposts{
+		    width: 290px!important;
 	}
 }
 

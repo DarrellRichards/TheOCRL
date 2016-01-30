@@ -526,6 +526,9 @@ img {
   .dropdown:hover .dropdown-menu {
     display: block; } }
 @media (max-width: 736px) {
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background: transparent; }
+
   .navbar-default .navbar-toggle {
     border: none; }
     .navbar-default .navbar-toggle .icon-bar {
@@ -604,7 +607,10 @@ img {
       list-style-type: none; }
       #footerNav ul li a {
         padding: 0 !important;
-        margin: 0 !important; } }
+        margin: 0 !important; }
+
+  #recentposts {
+    width: 290px !important; } }
 @media (max-width: 568px) {
   .navbar-brand img {
     height: 28px !important;

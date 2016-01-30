@@ -37,8 +37,8 @@
 					  </div>
 		        </div>
 		        <div id="recentposts">
-		        	<iframe width="100%" height="100%" src="http://theocrl.info/recent.php" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$d8732.1.$comp-ihihy9ut.1.$comp-ih8id5pn2.0.0"></iframe>
-		        </div>
+		        	<!-- <iframe width="100%" height="100%" src="http://theocrl.info/recent.php" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$d8732.1.$comp-ihihy9ut.1.$comp-ih8id5pn2.0.0"></iframe>
+		        --> </div>
 	        </div>
 	    </div> 
     </div>
