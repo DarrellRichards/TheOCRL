@@ -4,17 +4,26 @@
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 736px) {
+	.navbar-default{
+		.navbar-toggle{
+			border: none;
+			.icon-bar{
+				background-color: $green;
+			}
+		}
+	}
 	.navbar-brand img {
-	    height: 28px;
-    	margin-top: -4px;
+	    height: 32px!Important;
+    	margin-top: -4px !important;
 	}
 	.nav{
 		li{
 			z-index: 2000;
-		    background: #ccc;
+		    background: #111;
 		    margin-top: -2px;
 		    position: relative;
+		    text-align: center;
 		    top: -5px;
 		}
 	}
@@ -30,6 +39,17 @@
        	color: #000;
        }
 	}
+
+	#homeMainBanner {
+		#homeNewsMainLower{
+			ul{
+				li{
+					display: list-item;
+				}
+			}
+		}
+	}
+
 	#homeTitleBar{
 		margin-top: 0;
 	}
@@ -43,18 +63,79 @@
 			}
 		}
 	}
-}
-
-@media (max-width: 1280px) {
-	.lastest_races {
-		margin-left: 0;
-	    #standings{
-	    	max-width: 636px;
-		    margin-right: 6px;
+	.sticky-container{
+		display: none;
+	}
+	#latestNews{
+	    max-height: 400px;
+	    #nextEventTitles{
+	    	margin-bottom: 10px;
 	    }
-		#cmltsstandings{
-			max-width: 638px;
-			margin-right: 0;
+	    h4{
+	    	text-align: center;
+	    }
+	    h5{
+	    	text-align: center;
+	    }
+	    h6{
+	    	text-align: center;
+	    }
+	    .title_news{
+    	    margin-bottom: 15px;
+	    	p{
+	    		height: auto;
+	    	}
+	    }
+	}
+	.latest_race_info{
+		h4{
+			font-size: .9em;
+		}
+
+		#race_bottom{
+			border-top: 1px solid #ccc;
+			padding-top: 10px;
 		}
 	}
+	#mainFooter #footerLogo{
+		width: auto;
+		height: auto;
+	}
+	#footerNav{
+		ul{
+			text-align: center!important;
+			margin: 0!important;
+		    width: 90%!important;
+			li{
+				display: list-item!important;
+				border: none!important;
+				padding: 0!important;
+				list-style-type: none;
+				a{
+					padding: 0!important;
+					margin: 0!important;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 568px) {
+	.navbar-brand img {
+	    height: 28px!Important;
+    	margin-top: -4px !important;
+	}
+	#breaking_news{
+		p{
+			a{
+			 font-size: 0.725em;
+			}
+		}
+	}
+	.latest_race_info{
+		h4{
+			font-size: .7em!important;
+		}
+	}
+
 }

@@ -525,16 +525,22 @@ img {
 @media (min-width: 768px) {
   .dropdown:hover .dropdown-menu {
     display: block; } }
-@media (max-width: 768px) {
+@media (max-width: 736px) {
+  .navbar-default .navbar-toggle {
+    border: none; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #32FF00; }
+
   .navbar-brand img {
-    height: 28px;
-    margin-top: -4px; }
+    height: 32px !important;
+    margin-top: -4px !important; }
 
   .nav li {
     z-index: 2000;
-    background: #ccc;
+    background: #111;
     margin-top: -2px;
     position: relative;
+    text-align: center;
     top: -5px; }
 
   #mainBannerText {
@@ -547,6 +553,9 @@ img {
       border: none;
       color: #000; }
 
+  #homeMainBanner #homeNewsMainLower ul li {
+    display: list-item; }
+
   #homeTitleBar {
     margin-top: 0; }
 
@@ -554,13 +563,55 @@ img {
     margin-top: 20px; }
     #nextEventBox ul li {
       background: transparent;
-      padding-top: 10px; } }
-@media (max-width: 1280px) {
-  .lastest_races {
-    margin-left: 0; }
-    .lastest_races #standings {
-      max-width: 636px;
-      margin-right: 6px; }
-    .lastest_races #cmltsstandings {
-      max-width: 638px;
-      margin-right: 0; } }
+      padding-top: 10px; }
+
+  .sticky-container {
+    display: none; }
+
+  #latestNews {
+    max-height: 400px; }
+    #latestNews #nextEventTitles {
+      margin-bottom: 10px; }
+    #latestNews h4 {
+      text-align: center; }
+    #latestNews h5 {
+      text-align: center; }
+    #latestNews h6 {
+      text-align: center; }
+    #latestNews .title_news {
+      margin-bottom: 15px; }
+      #latestNews .title_news p {
+        height: auto; }
+
+  .latest_race_info h4 {
+    font-size: .9em; }
+  .latest_race_info #race_bottom {
+    border-top: 1px solid #ccc;
+    padding-top: 10px; }
+
+  #mainFooter #footerLogo {
+    width: auto;
+    height: auto; }
+
+  #footerNav ul {
+    text-align: center !important;
+    margin: 0 !important;
+    width: 90% !important; }
+    #footerNav ul li {
+      display: list-item !important;
+      border: none !important;
+      padding: 0 !important;
+      list-style-type: none; }
+      #footerNav ul li a {
+        padding: 0 !important;
+        margin: 0 !important; } }
+@media (max-width: 568px) {
+  .navbar-brand img {
+    height: 28px !important;
+    margin-top: -4px !important; }
+
+  #breaking_news p a {
+    font-size: 0.725em; }
+
+  .latest_race_info h4 {
+    font-size: 0.7em !important; } }

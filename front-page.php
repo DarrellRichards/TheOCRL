@@ -105,7 +105,7 @@
   						<p>Fastest Lap</p>
   						<p class="styled"><?php the_field('latest_fast_lap'); ?></p>
   					</div>
-  					<div class="col-md-6">
+  					<div class="col-md-6" id="race_bottom">
   						<p>Race Duration</p>
   						<p class="styled"><?php the_field('latest_race_duration'); ?></p>
   						<p>Race Leaders/Lead Changes</p>
