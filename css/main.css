@@ -529,10 +529,12 @@ img {
   .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background: transparent; }
 
-  .navbar-default .navbar-toggle {
-    border: none; }
-    .navbar-default .navbar-toggle .icon-bar {
-      background-color: #32FF00; }
+  .navbar-default {
+    z-index: 1000 !important; }
+    .navbar-default .navbar-toggle {
+      border: none; }
+      .navbar-default .navbar-toggle .icon-bar {
+        background-color: #32FF00; }
 
   .navbar-brand img {
     height: 32px !important;
@@ -610,7 +612,16 @@ img {
         margin: 0 !important; }
 
   #recentposts {
-    width: 290px !important; } }
+    width: 290px !important; }
+
+  #leaguephotos #aboutimages {
+    max-width: 300px; }
+
+  .LeagueSeries h3 {
+    text-align: center; }
+  .LeagueSeries #series_info {
+    margin-top: 20px;
+    margin-left: 10px; } }
 @media (max-width: 568px) {
   .navbar-brand img {
     height: 28px !important;

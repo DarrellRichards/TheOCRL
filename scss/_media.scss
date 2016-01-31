@@ -9,6 +9,7 @@
 		background: transparent;
 	}
 	.navbar-default{
+		    z-index: 1000!important;
 		.navbar-toggle{
 			border: none;
 			.icon-bar{
@@ -123,7 +124,22 @@
 	}
 
 	#recentposts{
-		    width: 290px!important;
+		width: 290px!important;
+	}
+
+	#leaguephotos{
+		#aboutimages{
+			max-width: 300px;
+		}
+	} 
+	.LeagueSeries{
+		h3{
+			text-align: center;
+		}
+		#series_info{
+			margin-top: 20px;
+			margin-left: 10px;
+		}
 	}
 }
 
