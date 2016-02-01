@@ -1,0 +1,28 @@
+.dataTables_length{
+	display: none;
+}
+
+.dataTables_filter{
+	display: none;
+}
+
+.tablepress tfoot th, .tablepress thead th{
+	background: yellow!important;
+	color: #000;
+	text-align: center;
+	border-right: 1px solid #d3d3d3;
+}
+
+.tablepress .even td {
+	background: transparent!important;
+	text-align: center!important;
+}
+
+.tablepress .odd td{
+	background-color: #3d3d3d!important;
+    text-align: center!important;
+} 
+
+.tablepress .sorting:after, .tablepress .sorting_asc:after, .tablepress .sorting_desc:after{
+	display: none;
+}
