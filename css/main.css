@@ -218,7 +218,8 @@ img {
         display: inline;
         margin-right: 15px; }
     #homeMainBanner #homeNewsMainLower img {
-      min-width: 100%; }
+      min-width: 100%;
+      max-height: 333px; }
     #homeMainBanner #homeNewsMainLower a {
       color: #6dff01;
       font-family: "Play", sans-serif;
@@ -549,6 +550,9 @@ img {
   .dropdown:hover .dropdown-menu {
     display: block; } }
 @media (max-width: 736px) {
+  #top-bar {
+    display: none; }
+
   .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background: transparent; }
 
@@ -655,3 +659,5 @@ img {
 
   .latest_race_info h4 {
     font-size: 0.7em !important; } }
+
+/*# sourceMappingURL=main.css.map */
