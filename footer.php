@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
         	<div class="col-md-12">
-        		<img src="<?php echo the_field('footer_logo', 'option'	); ?>" id="footerLogo">
+        		<img src="<?php echo esc_html( get_theme_mod( 'theocrl_logo' ) ); ?>" id="footerLogo">
             </div>
             
             <nav class="col-md-12" id="footerNav">
@@ -19,7 +19,7 @@
     
     	<div class="row">
         	<div class="col-md-12" id="footerLegal">
-            	<p><?php echo the_field('footer_copyright', 'option'	); ?></p>
+            	<p><?php echo esc_html( get_theme_mod( 'theocrl_copyright' ) ); ?></p>
                 <p><?php echo the_field('footer_all_rights', 'option'	); ?></p>
             </div>
         </div>

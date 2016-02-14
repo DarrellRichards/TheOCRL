@@ -1,0 +1,57 @@
+#Sprint_Join{
+	margin-top: 20px;
+	.placeholder{
+		text-align: center;
+	}
+}
+#Xinfity_Join{
+	padding-top: 30px;
+	background: #3A3A3A;
+	.placeholder{
+		text-align: center;
+	}
+}
+
+#Trucks_Join{
+	padding-top: 20px;
+	margin-bottom: 20px;
+	background: #666666;
+	.placeholder{
+		text-align: center;
+	}
+}
+.Join_Info{
+	text-align: center;
+	img{
+		height: 101px;
+	}
+	h3{
+	    font-size: 1em;
+	}
+	.active{
+		background: $green;
+	    width: 100%;
+	    margin-bottom: 15px;
+	    margin-top: 15px;
+	    color: #000;
+	    &:hover{
+	    	color: #000;
+	    }
+	}
+	.inactive{
+		background: #111;
+	    width: 100%;
+	    margin-bottom: 15px;
+	    margin-top: 15px;
+	    &:hover{
+	    	color: #fff;
+	    }
+	}
+	p{
+		text-align: left;
+		font-weight: 700;
+	}
+	ul{
+		text-align: left;
+	}
+}

@@ -7,7 +7,7 @@ $grey: #3A3A3A;
 // General
 body{
 	font-family: $open!important;
-	background: #000;
+	// background: #000;
     color: white;
 }
 .boxHelper
@@ -42,6 +42,7 @@ img {
 @import "homepage";
 @import "about";
 @import "single";
+@import "join-us";
 @import "tablepress";
 @import "footer";
 @import "media";

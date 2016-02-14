@@ -13,7 +13,7 @@
   <link href='https://fonts.googleapis.com/css?family=Play:700' rel='stylesheet' type='text/css'>
   <?php wp_head(); ?>
 </head>
-<body>
+<body style="background-color: <?php echo esc_html( get_theme_mod( 'body_color' ) ); ?>">
 
 <nav id="top-bar">
 	<div class="container">
@@ -30,7 +30,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/"><img src="https://static.wixstatic.com/media/e39ef0_2b1d26ab85c242e3bf7c20a9ab82f24e.png/v1/fill/w_398,h_52,al_c,usm_0.50_1.20_0.00/e39ef0_2b1d26ab85c242e3bf7c20a9ab82f24e.png" alt=""></a>
+      <a class="navbar-brand" href="/"><img src="<?php echo esc_html( get_theme_mod( 'header_logo' ) ); ?>" alt=""></a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -53,7 +53,7 @@
     <h2 class="hide">Bottom Nav Bar</h2>
       <div class="row">
           <div class="col-md-4">
-              <p><a href="<?php echo the_field('breaking_news_url', 'option'); ?>"><?php echo the_field('breaking_news', 'option'); ?></a></p>
+              <p><a href="<?php echo esc_html( get_theme_mod( 'theocrl_breakingnews_url' ) ); ?>"><?php echo esc_html( get_theme_mod( 'theocrl_breakingnews' ) ); ?></a></p>
           </div>
       </div>
   </div>

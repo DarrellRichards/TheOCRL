@@ -1,6 +1,5 @@
 body {
   font-family: "Open Sans", sans-serif !important;
-  background: #000;
   color: white; }
 
 .boxHelper {
@@ -484,6 +483,51 @@ img {
     background: #878787;
     padding: 10px;
     margin-top: 10px; }
+
+#Sprint_Join {
+  margin-top: 20px; }
+  #Sprint_Join .placeholder {
+    text-align: center; }
+
+#Xinfity_Join {
+  padding-top: 30px;
+  background: #3A3A3A; }
+  #Xinfity_Join .placeholder {
+    text-align: center; }
+
+#Trucks_Join {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  background: #666666; }
+  #Trucks_Join .placeholder {
+    text-align: center; }
+
+.Join_Info {
+  text-align: center; }
+  .Join_Info img {
+    height: 101px; }
+  .Join_Info h3 {
+    font-size: 1em; }
+  .Join_Info .active {
+    background: #32FF00;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #000; }
+    .Join_Info .active:hover {
+      color: #000; }
+  .Join_Info .inactive {
+    background: #111;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px; }
+    .Join_Info .inactive:hover {
+      color: #fff; }
+  .Join_Info p {
+    text-align: left;
+    font-weight: 700; }
+  .Join_Info ul {
+    text-align: left; }
 
 .dataTables_length {
   display: none; }
